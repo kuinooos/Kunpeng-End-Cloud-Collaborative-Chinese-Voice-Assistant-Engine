@@ -1,0 +1,500 @@
+[2025-12-14 12:10:49][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 12:10:49][INFO] Loading local ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-14 12:10:55][INFO] ASR Model loaded successfully.
+[2025-12-14 12:10:55][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 12:10:55][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 12:13:25][INFO] Client connected
+[2025-12-14 12:13:25][INFO] Authentication successful
+[2025-12-14 12:13:30][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 12:13:30][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 12:13:30][INFO] Client is idle, resetting services
+[2025-12-14 12:13:48][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 12:13:48][INFO] Client disconnected
+[2025-12-14 12:16:21][INFO] Client connected
+[2025-12-14 12:16:21][INFO] Authentication successful
+[2025-12-14 12:16:26][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 12:16:26][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 12:16:26][INFO] Client is idle, resetting services
+[2025-12-14 12:16:41][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 12:16:41][INFO] Client disconnected
+[2025-12-14 12:24:09][INFO] 服务器已关闭。
+[2025-12-14 12:24:09][INFO] 程序已被用户中断
+[2025-12-14 12:24:09][INFO] 事件循环已关闭
+[2025-12-14 15:09:54][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 15:09:54][INFO] 🚀 Loading ONNX ASR model from: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output
+[2025-12-14 15:09:54][ERROR] Failed to load ASR model: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output is not registered
+[2025-12-14 15:09:54][INFO] Retrying with ModelScope cloud model...
+[2025-12-14 15:13:10][INFO] 程序已被用户中断
+[2025-12-14 15:13:10][INFO] 事件循环已关闭
+[2025-12-14 15:19:57][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 15:19:57][INFO] 🚀 Loading ONNX ASR model from: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output
+[2025-12-14 15:19:57][ERROR] Failed to load ASR model: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output is not registered
+[2025-12-14 15:19:57][INFO] Retrying with ModelScope cloud model...
+[2025-12-14 15:20:32][INFO] 程序已被用户中断
+[2025-12-14 15:20:32][INFO] 事件循环已关闭
+[2025-12-14 15:22:49][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 15:22:49][INFO] 🚀 Loading ONNX ASR model from: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output
+[2025-12-14 15:22:49][ERROR] Failed to load ASR model from /home/openEuler/KunpengChat/Server/sensevoice_onnx_output: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output is not registered
+[2025-12-14 15:22:49][INFO] 事件循环已关闭
+[2025-12-14 15:28:52][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 15:28:52][INFO] 🚀 Found ONNX model, trying to load from: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output
+[2025-12-14 15:28:52][ERROR] Failed to load ONNX model: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output is not registered
+[2025-12-14 15:28:52][INFO] Falling back to local PyTorch model...
+[2025-12-14 15:28:52][INFO] Loading local PyTorch ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-14 15:29:07][INFO] Local PyTorch ASR Model loaded successfully.
+[2025-12-14 15:29:08][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 15:29:08][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 15:29:16][INFO] 服务器已关闭。
+[2025-12-14 15:29:16][INFO] 程序已被用户中断
+[2025-12-14 15:29:16][INFO] 事件循环已关闭
+[2025-12-14 15:44:51][INFO] ASR Service using NPU backend: npu
+[2025-12-14 15:44:52][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 15:44:52][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 15:44:52][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 15:44:52][INFO] Available ONNX Runtime providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+[2025-12-14 15:44:52][WARNING] CANNExecutionProvider not available, falling back to CPU
+[2025-12-14 15:45:11][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 15:45:15][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 15:45:15][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 15:51:51][INFO] 服务器已关闭。
+[2025-12-14 15:51:51][INFO] 程序已被用户中断
+[2025-12-14 15:51:51][INFO] 事件循环已关闭
+[2025-12-14 16:33:22][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 16:33:23][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 16:33:25][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 16:33:25][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 16:33:29][ERROR] acl.init failed, ret=507008
+[2025-12-14 16:33:36][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 16:33:37][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 16:34:59][INFO] 服务器已关闭。
+[2025-12-14 16:34:59][INFO] 程序已被用户中断
+[2025-12-14 16:34:59][INFO] 事件循环已关闭
+[2025-12-14 16:36:10][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 16:36:11][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 16:36:12][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 16:36:12][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 16:36:13][ERROR] acl.init failed, ret=507008
+[2025-12-14 16:36:17][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 16:36:18][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 16:36:19][INFO] 服务器已关闭。
+[2025-12-14 16:36:19][INFO] 程序已被用户中断
+[2025-12-14 16:36:19][INFO] 事件循环已关闭
+[2025-12-14 16:37:03][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 16:37:03][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 16:37:05][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 16:37:05][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 16:37:08][ERROR] acl.init failed, ret=507008
+[2025-12-14 16:37:12][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 16:37:12][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 16:37:29][INFO] Client connected
+[2025-12-14 16:37:29][INFO] Authentication successful
+[2025-12-14 16:37:34][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 16:37:34][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 16:37:34][INFO] Client is idle, resetting services
+[2025-12-14 16:38:16][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 16:38:16][INFO] Client disconnected
+[2025-12-14 16:38:20][INFO] 服务器已关闭。
+[2025-12-14 16:38:20][INFO] 程序已被用户中断
+[2025-12-14 16:38:20][INFO] 事件循环已关闭
+[2025-12-14 16:49:34][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 16:49:36][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 16:49:38][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 16:49:38][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 16:49:41][WARNING] ACL already initialized (Repeat Init).
+[2025-12-14 16:49:41][ERROR] acl.rt.create_context failed, ret=107001
+[2025-12-14 16:50:03][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 16:50:04][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 16:50:10][INFO] 服务器已关闭。
+[2025-12-14 16:50:10][INFO] 程序已被用户中断
+[2025-12-14 16:50:10][INFO] 事件循环已关闭
+[2025-12-14 16:51:42][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 16:51:44][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 16:51:46][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 16:51:46][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 16:51:49][WARNING] ACL already initialized (Repeat Init).
+[2025-12-14 16:51:49][ERROR] acl.rt.get_context failed, ret=107002
+[2025-12-14 16:52:02][INFO] 程序已被用户中断
+[2025-12-14 16:52:02][INFO] 事件循环已关闭
+[2025-12-14 16:53:42][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 16:53:43][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 16:53:43][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 16:53:43][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 16:53:44][WARNING] ACL already initialized (Repeat Init).
+[2025-12-14 16:53:44][INFO] ACL Device 0 set successfully. Using implicit context.
+[2025-12-14 16:53:46][ERROR] acl.mdl.load_from_file failed, ret=545002
+[2025-12-14 16:53:50][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 16:53:50][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 16:53:57][INFO] 服务器已关闭。
+[2025-12-14 16:53:57][INFO] 程序已被用户中断
+[2025-12-14 16:53:57][INFO] 事件循环已关闭
+[2025-12-14 17:44:43][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 17:44:45][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 17:44:45][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/models/sensevoice_small_310b1.om
+[2025-12-14 17:44:45][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 17:44:46][WARNING] ACL already initialized (Repeat Init).
+[2025-12-14 17:44:46][INFO] ACL Device 0 set successfully. Using implicit context.
+[2025-12-14 17:44:48][ERROR] acl.mdl.load_from_file failed, ret=545002
+[2025-12-14 17:44:52][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 17:44:52][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 17:45:00][INFO] 服务器已关闭。
+[2025-12-14 17:45:00][INFO] 程序已被用户中断
+[2025-12-14 17:45:00][INFO] 事件循环已关闭
+[2025-12-14 17:51:22][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 17:51:22][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 17:51:24][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 17:51:24][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 17:51:26][WARNING] ACL already initialized (Repeat Init).
+[2025-12-14 17:51:26][INFO] ACL Device 0 set successfully. Using implicit context.
+[2025-12-14 17:51:28][ERROR] acl.mdl.load_from_file failed, ret=545002
+[2025-12-14 17:51:29][INFO] 程序已被用户中断
+[2025-12-14 17:51:29][INFO] 事件循环已关闭
+[2025-12-14 17:55:08][INFO] ASR Service using NPU/ONNX backend: acl
+[2025-12-14 17:55:08][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 17:55:09][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_small.om
+[2025-12-14 17:55:09][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 17:55:10][WARNING] ACL already initialized (Repeat Init).
+[2025-12-14 17:55:10][INFO] ACL Device 0 set successfully. Using implicit context.
+[2025-12-14 17:55:11][ERROR] acl.mdl.load_from_mem failed, ret=545002 (0x850EA)
+[2025-12-14 17:55:15][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 17:55:16][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 17:55:27][INFO] 服务器已关闭。
+[2025-12-14 17:55:27][INFO] 程序已被用户中断
+[2025-12-14 17:55:27][INFO] 事件循环已关闭
+[2025-12-14 18:01:49][INFO] ASR Service using CPU/GPU backend: cpu
+[2025-12-14 18:03:05][INFO] ASR Service using CPU/GPU backend: cpu
+[2025-12-14 18:08:00][INFO] ASR Service using CPU/GPU backend: cpu
+[2025-12-14 18:08:14][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 18:08:14][INFO] Loading local PyTorch ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-14 18:08:24][INFO] PyTorch ASR Model loaded successfully.
+[2025-12-14 18:08:24][INFO] 事件循环已关闭
+[2025-12-14 18:11:35][INFO] ASR Service using CPU/GPU backend: cpu
+[2025-12-14 18:11:50][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 18:11:50][INFO] Loading local PyTorch ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-14 18:12:01][INFO] PyTorch ASR Model loaded successfully.
+[2025-12-14 18:12:01][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 18:12:01][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 18:14:27][INFO] 服务器已关闭。
+[2025-12-14 18:14:27][INFO] 程序已被用户中断
+[2025-12-14 18:14:27][INFO] 事件循环已关闭
+[2025-12-14 18:15:31][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 18:15:32][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 18:15:32][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 18:15:32][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 18:15:42][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 18:15:46][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 18:15:47][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 19:02:29][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 19:02:30][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 19:02:30][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 19:02:30][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 19:02:50][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 19:02:56][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 19:02:56][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 19:03:02][INFO] Client connected
+[2025-12-14 19:03:02][INFO] Authentication successful
+[2025-12-14 19:03:07][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:03:07][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:03:07][INFO] Client is idle, resetting services
+[2025-12-14 19:03:24][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 19:03:24][INFO] Client disconnected
+[2025-12-14 19:03:26][INFO] Client connected
+[2025-12-14 19:03:26][INFO] Authentication successful
+[2025-12-14 19:03:31][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:03:31][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:03:31][INFO] Client is idle, resetting services
+[2025-12-14 19:04:41][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 19:04:41][INFO] Client disconnected
+[2025-12-14 19:12:01][INFO] Client connected
+[2025-12-14 19:12:01][INFO] Authentication successful
+[2025-12-14 19:12:06][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:12:06][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:12:06][INFO] Client is idle, resetting services
+[2025-12-14 19:12:59][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 19:12:59][INFO] Client disconnected
+[2025-12-14 19:16:51][INFO] 服务器已关闭。
+[2025-12-14 19:16:51][INFO] 程序已被用户中断
+[2025-12-14 19:16:51][INFO] 事件循环已关闭
+[2025-12-14 19:25:13][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 19:25:13][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 19:25:13][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 19:25:13][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 19:25:23][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 19:25:27][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 19:25:27][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 19:27:05][INFO] Client connected
+[2025-12-14 19:27:05][INFO] Authentication successful
+[2025-12-14 19:27:10][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:27:10][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:27:10][INFO] Client is idle, resetting services
+[2025-12-14 19:27:28][INFO] Client is speaking
+[2025-12-14 19:27:31][INFO] Client disconnected
+[2025-12-14 19:30:38][INFO] 程序已被用户中断
+[2025-12-14 19:30:38][INFO] 事件循环已关闭
+[2025-12-14 19:30:58][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 19:30:58][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 19:30:58][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 19:30:58][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 19:31:08][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 19:31:12][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 19:31:12][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 19:31:15][INFO] Client connected
+[2025-12-14 19:31:15][INFO] Authentication successful
+[2025-12-14 19:31:20][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:31:20][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:31:20][INFO] Client is idle, resetting services
+[2025-12-14 19:38:35][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 19:38:35][INFO] Client disconnected
+[2025-12-14 19:38:46][INFO] Client connected
+[2025-12-14 19:38:46][INFO] Authentication successful
+[2025-12-14 19:38:51][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:38:52][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:38:52][INFO] Client is idle, resetting services
+[2025-12-14 19:43:31][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 19:43:31][INFO] Client disconnected
+[2025-12-14 19:44:07][INFO] Client connected
+[2025-12-14 19:44:07][INFO] Authentication successful
+[2025-12-14 19:44:12][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:44:12][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:44:12][INFO] Client is idle, resetting services
+[2025-12-14 19:45:15][INFO] Client is speaking
+[2025-12-14 19:45:18][INFO] Client disconnected
+[2025-12-14 19:47:07][INFO] Client connected
+[2025-12-14 19:47:07][INFO] Authentication successful
+[2025-12-14 19:47:12][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:47:13][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:47:13][INFO] Client is idle, resetting services
+[2025-12-14 19:47:52][WARNING] Connection closed: no close frame received or sent
+[2025-12-14 19:47:52][INFO] Client disconnected
+[2025-12-14 19:48:14][INFO] 程序已被用户中断
+[2025-12-14 19:48:14][INFO] 事件循环已关闭
+[2025-12-14 19:59:21][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 19:59:21][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 19:59:22][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 19:59:22][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 19:59:31][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 19:59:35][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 19:59:35][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 19:59:47][INFO] Client connected
+[2025-12-14 19:59:47][INFO] Authentication successful
+[2025-12-14 19:59:52][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 19:59:52][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 19:59:52][INFO] Client is idle, resetting services
+[2025-12-14 20:00:17][INFO] Client is speaking
+[2025-12-14 20:00:20][INFO] Client disconnected
+[2025-12-14 20:02:28][INFO] 程序已被用户中断
+[2025-12-14 20:02:28][INFO] 事件循环已关闭
+[2025-12-14 20:03:27][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:03:27][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:03:27][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:03:27][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:03:37][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:03:41][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:03:41][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:06:47][INFO] Client connected
+[2025-12-14 20:06:47][INFO] Authentication successful
+[2025-12-14 20:06:52][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:06:52][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:06:52][INFO] Client is idle, resetting services
+[2025-12-14 20:07:06][INFO] Client is speaking
+[2025-12-14 20:07:09][WARNING] vad result: no_speech
+[2025-12-14 20:07:09][INFO] Client is idle, resetting services
+[2025-12-14 20:09:33][INFO] Client disconnected
+[2025-12-14 20:09:33][INFO] 程序已被用户中断
+[2025-12-14 20:09:33][INFO] 事件循环已关闭
+[2025-12-14 20:10:08][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:10:08][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:10:08][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:10:08][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:10:18][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:10:22][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:10:22][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:10:41][INFO] Client connected
+[2025-12-14 20:10:41][INFO] Authentication successful
+[2025-12-14 20:10:46][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:10:46][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:10:46][INFO] Client is idle, resetting services
+[2025-12-14 20:10:54][INFO] Client is speaking
+[2025-12-14 20:11:03][ERROR] ASR inference failed: Required inputs (['language', 'textnorm']) are missing from input feed (['speech', 'speech_lengths']).
+[2025-12-14 20:11:03][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-14 20:11:03][INFO] asr result: 
+[2025-12-14 20:11:03][INFO] Client is thinking
+[2025-12-14 20:11:03][ERROR] LLM Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:11:03][INFO] [意图识别结果]: 抱歉，我现在无法回答。
+[2025-12-14 20:11:03][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-14 20:11:03][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:11:03][INFO] [回复]: 
+[2025-12-14 20:11:04][ERROR] LLM Stream Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:12:52][INFO] Client disconnected
+[2025-12-14 20:12:52][INFO] 程序已被用户中断
+[2025-12-14 20:12:52][INFO] 事件循环已关闭
+[2025-12-14 20:19:43][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:19:44][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:19:44][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:19:44][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:19:54][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:19:57][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:19:58][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:22:35][INFO] Client connected
+[2025-12-14 20:22:35][INFO] Authentication successful
+[2025-12-14 20:22:40][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:22:40][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:22:40][INFO] Client is idle, resetting services
+[2025-12-14 20:23:11][INFO] Client is speaking
+[2025-12-14 20:23:19][ERROR] ASR inference failed: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: speech for the following indices
+ index: 2 Got: 80 Expected: 560
+ Please fix either the inputs/outputs or the model.
+[2025-12-14 20:23:19][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-14 20:23:19][INFO] asr result: 
+[2025-12-14 20:23:20][INFO] Client is thinking
+[2025-12-14 20:23:20][ERROR] LLM Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:23:20][INFO] [意图识别结果]: 抱歉，我现在无法回答。
+[2025-12-14 20:23:20][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-14 20:23:20][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:23:20][INFO] [回复]: 
+[2025-12-14 20:23:20][ERROR] LLM Stream Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:25:06][INFO] Client disconnected
+[2025-12-14 20:25:06][INFO] 程序已被用户中断
+[2025-12-14 20:25:06][INFO] 事件循环已关闭
+[2025-12-14 20:26:42][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:26:42][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:26:42][INFO] DashScope API key has been set from CLI.
+[2025-12-14 20:26:43][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:26:43][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:26:52][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:26:56][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:26:56][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:27:12][INFO] Client connected
+[2025-12-14 20:27:12][INFO] Authentication successful
+[2025-12-14 20:27:17][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:27:17][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:27:18][INFO] Client is idle, resetting services
+[2025-12-14 20:27:19][INFO] Client is speaking
+[2025-12-14 20:27:29][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-14 20:27:29][INFO] asr result: 今天天气怎么样
+[2025-12-14 20:27:29][INFO] Client is thinking
+[2025-12-14 20:27:30][ERROR] LLM Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:27:30][INFO] [意图识别结果]: 抱歉，我现在无法回答。
+[2025-12-14 20:27:30][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-14 20:27:30][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:27:30][INFO] [回复]: 
+[2025-12-14 20:27:30][ERROR] LLM Stream Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:33:37][INFO] Client disconnected
+[2025-12-14 20:33:37][INFO] 程序已被用户中断
+[2025-12-14 20:33:37][INFO] 事件循环已关闭
+[2025-12-14 20:34:12][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:34:12][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:34:12][INFO] DashScope API key has been set from CLI.
+[2025-12-14 20:34:13][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:34:13][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:34:14][INFO] 程序已被用户中断
+[2025-12-14 20:34:14][INFO] 事件循环已关闭
+[2025-12-14 20:36:26][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:36:26][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:36:26][INFO] DashScope API key has been set from CLI.
+[2025-12-14 20:36:26][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:36:26][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:36:36][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:36:40][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:36:40][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:36:58][INFO] Client connected
+[2025-12-14 20:36:58][INFO] Authentication successful
+[2025-12-14 20:37:03][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:37:03][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:37:03][INFO] Client is idle, resetting services
+[2025-12-14 20:37:22][INFO] Client is speaking
+[2025-12-14 20:37:31][INFO] Calling LLM with Key: sk-d8e******6b7f
+[2025-12-14 20:37:31][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-14 20:37:31][INFO] asr result: 今天天气怎么样
+[2025-12-14 20:37:31][INFO] Client is thinking
+[2025-12-14 20:37:31][ERROR] LLM Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:37:31][INFO] [意图识别结果]: 抱歉，我现在无法回答。
+[2025-12-14 20:37:31][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-14 20:37:31][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:37:31][INFO] [回复]: 
+[2025-12-14 20:37:31][INFO] Calling LLM Stream with Key: sk-d8e******6b7f
+[2025-12-14 20:37:31][ERROR] LLM Stream Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:37:59][INFO] Client disconnected
+[2025-12-14 20:37:59][INFO] 程序已被用户中断
+[2025-12-14 20:37:59][INFO] 事件循环已关闭
+[2025-12-14 20:40:49][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:40:50][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:40:50][INFO] DashScope API key has been set from CLI.
+[2025-12-14 20:40:50][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:40:50][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:41:00][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:41:04][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:41:04][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:41:07][INFO] Client connected
+[2025-12-14 20:41:07][INFO] Authentication successful
+[2025-12-14 20:41:12][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:41:12][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:41:12][INFO] Client is idle, resetting services
+[2025-12-14 20:41:27][INFO] Client is speaking
+[2025-12-14 20:41:34][INFO] Calling LLM with Key: sk-d8e******6b7f
+[2025-12-14 20:41:34][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-14 20:41:34][INFO] asr result: 今天天气怎么样
+[2025-12-14 20:41:34][INFO] Client is thinking
+[2025-12-14 20:41:35][ERROR] LLM Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:41:35][INFO] [意图识别结果]: 抱歉，我现在无法回答。
+[2025-12-14 20:41:35][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-14 20:41:35][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:41:35][INFO] [回复]: 
+[2025-12-14 20:41:35][INFO] Calling LLM Stream with Key: sk-d8e******6b7f
+[2025-12-14 20:41:35][ERROR] LLM Stream Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:41:47][INFO] Client disconnected
+[2025-12-14 20:41:48][INFO] 服务器已关闭。
+[2025-12-14 20:41:48][INFO] 程序已被用户中断
+[2025-12-14 20:41:48][INFO] 事件循环已关闭
+[2025-12-14 20:43:51][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:43:51][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:43:52][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:43:52][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:44:02][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:44:06][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:44:06][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:44:09][INFO] Client connected
+[2025-12-14 20:44:09][INFO] Authentication successful
+[2025-12-14 20:44:14][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:44:14][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:44:14][INFO] Client is idle, resetting services
+[2025-12-14 20:44:18][INFO] Client is speaking
+[2025-12-14 20:44:24][INFO] Calling LLM with Key: sk-d8e******6b7f
+[2025-12-14 20:44:24][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-14 20:44:24][INFO] asr result: 今天天气怎么样
+[2025-12-14 20:44:24][INFO] Client is thinking
+[2025-12-14 20:44:24][ERROR] LLM Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:44:24][INFO] [意图识别结果]: 抱歉，我现在无法回答。
+[2025-12-14 20:44:24][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-14 20:44:24][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:44:24][INFO] [回复]: 
+[2025-12-14 20:44:24][INFO] Calling LLM Stream with Key: sk-d8e******6b7f
+[2025-12-14 20:44:25][ERROR] LLM Stream Request Failed: Code: InvalidApiKey, Message: Invalid API-key provided.
+[2025-12-14 20:44:39][INFO] Client disconnected
+[2025-12-14 20:44:39][INFO] 服务器已关闭。
+[2025-12-14 20:44:39][INFO] 程序已被用户中断
+[2025-12-14 20:44:39][INFO] 事件循环已关闭
+[2025-12-14 20:47:59][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-14 20:47:59][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-14 20:48:00][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_output/model.onnx
+[2025-12-14 20:48:00][INFO] Loaded vocab with 25055 tokens
+[2025-12-14 20:48:21][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-14 20:48:29][INFO] Torch threads set: compute=8, interop=2
+[2025-12-14 20:48:29][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-14 20:49:05][INFO] Client connected
+[2025-12-14 20:49:05][INFO] Authentication successful
+[2025-12-14 20:49:10][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-14 20:49:10][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-14 20:49:10][INFO] Client is idle, resetting services
+[2025-12-14 20:49:16][INFO] Client is speaking
+[2025-12-14 20:49:22][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-14 20:49:22][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-14 20:49:22][INFO] asr result: 今天天气怎么样
+[2025-12-14 20:49:22][INFO] Client is thinking
+[2025-12-14 20:49:23][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-14 20:49:23][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-14 20:49:23][INFO] [回复]: 
+[2025-12-14 20:49:23][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-14 20:49:24][ERROR] TTS Exception: 'SpeechSynthesisResult' object has no attribute 'status_code'
+[2025-12-14 20:49:25][ERROR] TTS Exception: 'SpeechSynthesisResult' object has no attribute 'status_code'
+[2025-12-14 20:49:26][ERROR] TTS Exception: 'SpeechSynthesisResult' object has no attribute 'status_code'
+                                                                                                                                                                                                         

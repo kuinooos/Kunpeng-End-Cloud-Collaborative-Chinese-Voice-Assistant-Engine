@@ -1,0 +1,8 @@
+[1970-01-01 08:25:53][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[1970-01-01 08:25:55][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[1970-01-01 08:25:55][WARNING] Vocab path not found: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall/tokens.json, decoding will return raw IDs
+[1970-01-01 08:25:55][ERROR] Failed to init ONNX Runtime CPU: [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed:Load model /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed. File doesn't exist
+[1970-01-01 08:26:01][INFO] Torch threads set: compute=8, interop=2
+[1970-01-01 08:26:02][INFO] WebSocket server started on ws://0.0.0.0:8000
+[1970-01-01 08:26:14][INFO] 程序已被用户中断
+[1970-01-01 08:26:14][INFO] 事件循环已关闭

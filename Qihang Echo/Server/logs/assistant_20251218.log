@@ -1,0 +1,12 @@
+[2025-12-18 21:06:02][WARNING] Vocab path not found: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall/tokens.json, decoding will return raw IDs
+[2025-12-18 21:06:13][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-18 21:12:49][INFO] Loaded vocab with 25055 tokens
+[2025-12-18 21:12:57][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-18 21:14:46][INFO] Loaded vocab with 25055 tokens
+[2025-12-18 21:14:58][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-18 21:30:32][INFO] Loaded vocab with 25055 tokens
+[2025-12-18 21:30:53][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-18 21:41:40][INFO] Loaded vocab with 25055 tokens
+[2025-12-18 21:42:00][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-18 21:44:34][INFO] Loaded vocab with 25055 tokens
+[2025-12-18 21:44:42][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=2 inter=1 exec=ExecutionMode.ORT_SEQUENTIAL

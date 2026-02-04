@@ -1,0 +1,1652 @@
+[2025-12-16 10:45:26][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 10:45:27][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-16 10:45:27][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 10:45:27][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 10:45:38][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 10:45:44][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 10:45:45][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 10:46:44][INFO] Client connected
+[2025-12-16 10:46:44][INFO] Authentication successful
+[2025-12-16 10:46:49][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 10:46:49][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 10:46:49][INFO] Client is idle, resetting services
+[2025-12-16 10:47:33][INFO] Client is speaking
+[2025-12-16 10:47:38][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 10:47:38][INFO] 任务提交成功: chat_start_task, 参数: ('嗯',), {}
+[2025-12-16 10:47:38][INFO] asr result: 嗯
+[2025-12-16 10:47:38][INFO] Client is thinking
+[2025-12-16 10:47:39][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 10:47:39][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 10:47:39][INFO] [回复]: 
+[2025-12-16 10:47:39][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 10:47:40][INFO] Client is speaking
+[2025-12-16 10:47:53][INFO] 任务提交成功: chat_start_task, 参数: ('未提供的陶他在一定借工资',), {}
+[2025-12-16 10:47:53][INFO] asr result: 未提供的陶他在一定借工资
+[2025-12-16 10:47:53][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 10:47:53][INFO] Client is thinking
+[2025-12-16 10:47:54][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 10:47:54][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 10:47:54][INFO] [回复]: 
+[2025-12-16 10:47:54][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 10:54:23][WARNING] Connection closed: no close frame received or sent
+[2025-12-16 10:54:23][INFO] Client disconnected
+[2025-12-16 11:16:44][INFO] 程序已被用户中断
+[2025-12-16 11:16:44][INFO] 事件循环已关闭
+[2025-12-16 11:30:58][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 11:30:59][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-16 11:30:59][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 11:30:59][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 11:31:07][INFO] 程序已被用户中断
+[2025-12-16 11:31:07][INFO] 事件循环已关闭
+[2025-12-16 11:33:22][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 11:33:23][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 11:33:23][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 11:33:31][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 11:33:35][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 11:33:35][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 11:33:51][INFO] Client connected
+[2025-12-16 11:33:51][INFO] Authentication successful
+[2025-12-16 11:33:56][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 11:33:56][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 11:33:56][INFO] Client is idle, resetting services
+[2025-12-16 11:34:28][INFO] Client is speaking
+[2025-12-16 11:34:34][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:34:34][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 11:34:34][INFO] asr result: 今天天气怎么样
+[2025-12-16 11:34:34][INFO] Server is thinking
+[2025-12-16 11:34:35][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:34:35][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:34:35][INFO] [回复]: 
+[2025-12-16 11:34:35][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:34:37][INFO] Client is speaking
+[2025-12-16 11:34:47][WARNING] vad result: no_speech
+[2025-12-16 11:34:47][INFO] Client is idle, resetting services
+[2025-12-16 11:34:55][INFO] Client is speaking
+[2025-12-16 11:35:03][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-16 11:35:03][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:35:03][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-16 11:35:03][INFO] Server is thinking
+[2025-12-16 11:35:04][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:35:04][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:35:04][INFO] [回复]: 
+[2025-12-16 11:35:04][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:35:05][INFO] Client is speaking
+[2025-12-16 11:35:27][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 11:35:27][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:35:27][INFO] asr result: 
+[2025-12-16 11:35:27][INFO] Server is thinking
+[2025-12-16 11:35:28][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:35:28][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:35:28][INFO] [回复]: 
+[2025-12-16 11:35:28][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:35:30][INFO] Client is speaking
+[2025-12-16 11:35:39][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏开灯',), {}
+[2025-12-16 11:35:39][INFO] asr result: 鲲鹏开灯
+[2025-12-16 11:35:39][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:35:39][INFO] Server is thinking
+[2025-12-16 11:35:39][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:35:39][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:35:39][INFO] [回复]: 
+[2025-12-16 11:35:39][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:35:41][INFO] Client is speaking
+[2025-12-16 11:35:47][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:35:47][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 11:35:47][INFO] asr result: 
+[2025-12-16 11:35:47][INFO] Server is thinking
+[2025-12-16 11:35:48][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:35:48][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:35:48][INFO] [回复]: 
+[2025-12-16 11:35:48][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:35:49][INFO] Client is speaking
+[2025-12-16 11:36:01][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏开灯',), {}
+[2025-12-16 11:36:01][INFO] asr result: 鲲鹏开灯
+[2025-12-16 11:36:01][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:36:01][INFO] Server is thinking
+[2025-12-16 11:36:01][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:36:01][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:36:01][INFO] [回复]: 
+[2025-12-16 11:36:01][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:36:03][INFO] Client is speaking
+[2025-12-16 11:36:15][INFO] 任务提交成功: chat_start_task, 参数: ('叫什么名字',), {}
+[2025-12-16 11:36:15][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:36:15][INFO] asr result: 叫什么名字
+[2025-12-16 11:36:15][INFO] Server is thinking
+[2025-12-16 11:36:16][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:36:16][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:36:16][INFO] [回复]: 
+[2025-12-16 11:36:16][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:36:17][INFO] Client is speaking
+[2025-12-16 11:36:29][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字',), {}
+[2025-12-16 11:36:29][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:36:29][INFO] asr result: 你叫什么名字
+[2025-12-16 11:36:29][INFO] Server is thinking
+[2025-12-16 11:36:30][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:36:30][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:36:30][INFO] [回复]: 
+[2025-12-16 11:36:30][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:36:32][INFO] Client is speaking
+[2025-12-16 11:36:47][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-16 11:36:47][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:36:47][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-16 11:36:47][INFO] Server is thinking
+[2025-12-16 11:36:47][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:36:47][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:36:47][INFO] [回复]: 
+[2025-12-16 11:36:47][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:36:49][INFO] Client is speaking
+[2025-12-16 11:37:09][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 11:37:09][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:37:09][INFO] asr result: 
+[2025-12-16 11:37:09][INFO] Server is thinking
+[2025-12-16 11:37:10][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:37:10][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:37:10][INFO] [回复]: 
+[2025-12-16 11:37:10][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:37:11][INFO] Client is speaking
+[2025-12-16 11:37:18][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 11:37:18][INFO] asr result: 
+[2025-12-16 11:37:18][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:37:19][INFO] Server is thinking
+[2025-12-16 11:37:19][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:37:19][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:37:19][INFO] [回复]: 
+[2025-12-16 11:37:19][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:37:20][INFO] Client is speaking
+[2025-12-16 11:37:31][WARNING] vad result: no_speech
+[2025-12-16 11:37:31][INFO] Client is idle, resetting services
+[2025-12-16 11:37:49][WARNING] Connection closed: no close frame received or sent
+[2025-12-16 11:37:49][INFO] Client disconnected
+[2025-12-16 11:44:02][INFO] 服务器已关闭。
+[2025-12-16 11:44:02][INFO] 程序已被用户中断
+[2025-12-16 11:44:02][INFO] 事件循环已关闭
+[2025-12-16 11:44:21][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 11:44:22][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 11:44:22][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 11:44:30][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 11:44:33][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 11:44:34][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 11:44:51][INFO] Client connected
+[2025-12-16 11:44:51][INFO] Authentication successful
+[2025-12-16 11:44:56][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 11:44:56][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 11:44:56][INFO] Client is idle, resetting services
+[2025-12-16 11:45:00][INFO] Client is speaking
+[2025-12-16 11:45:07][WARNING] vad result: no_speech
+[2025-12-16 11:45:07][INFO] Client is idle, resetting services
+[2025-12-16 11:45:21][INFO] Client is speaking
+[2025-12-16 11:45:30][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:45:30][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 11:45:30][INFO] asr result: 今天天气怎么样
+[2025-12-16 11:45:30][INFO] Server is thinking
+[2025-12-16 11:45:30][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:45:30][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:45:30][INFO] [回复]: 
+[2025-12-16 11:45:30][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:45:32][INFO] Client is speaking
+[2025-12-16 11:45:41][WARNING] vad result: no_speech
+[2025-12-16 11:45:42][INFO] Client is idle, resetting services
+[2025-12-16 11:45:52][WARNING] Connection closed: no close frame received or sent
+[2025-12-16 11:45:52][INFO] Client disconnected
+[2025-12-16 11:45:55][INFO] 服务器已关闭。
+[2025-12-16 11:45:55][INFO] 程序已被用户中断
+[2025-12-16 11:45:55][INFO] 事件循环已关闭
+[2025-12-16 11:48:00][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 11:48:01][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 11:48:01][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 11:48:09][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 11:48:13][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 11:48:13][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 11:48:15][INFO] Client connected
+[2025-12-16 11:48:15][INFO] Authentication successful
+[2025-12-16 11:48:20][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 11:48:20][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 11:48:20][INFO] Client is idle, resetting services
+[2025-12-16 11:48:43][INFO] Client is speaking
+[2025-12-16 11:48:54][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:48:54][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-16 11:48:54][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-16 11:48:54][INFO] Server is thinking
+[2025-12-16 11:48:55][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:48:55][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:48:55][INFO] [回复]: 
+[2025-12-16 11:48:55][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:48:56][ERROR] TTS Exception: 'begin_time'
+[2025-12-16 11:48:57][ERROR] TTS Exception: 'begin_time'
+[2025-12-16 11:48:58][ERROR] TTS Exception: 'begin_time'
+[2025-12-16 11:49:33][WARNING] Connection closed: no close frame received or sent
+[2025-12-16 11:49:33][INFO] Client disconnected
+[2025-12-16 11:50:06][INFO] 服务器已关闭。
+[2025-12-16 11:50:06][INFO] 程序已被用户中断
+[2025-12-16 11:50:06][INFO] 事件循环已关闭
+[2025-12-16 11:51:43][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 11:51:43][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 11:51:43][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 11:51:51][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 11:51:55][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 11:51:55][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 11:51:58][INFO] Client connected
+[2025-12-16 11:51:58][INFO] Authentication successful
+[2025-12-16 11:52:03][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 11:52:03][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 11:52:03][INFO] Client is idle, resetting services
+[2025-12-16 11:52:12][INFO] Client is speaking
+[2025-12-16 11:52:35][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:52:35][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样今天天气怎么样',), {}
+[2025-12-16 11:52:35][WARNING] vad result: buffer_full, asr result: 今天天气怎么样今天天气怎么样
+[2025-12-16 11:52:35][INFO] Server is thinking
+[2025-12-16 11:52:35][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:52:35][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:52:35][INFO] [回复]: 
+[2025-12-16 11:52:35][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:52:38][INFO] Client is speaking
+[2025-12-16 11:52:49][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 11:52:49][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 11:52:49][INFO] asr result: 
+[2025-12-16 11:52:49][INFO] Server is thinking
+[2025-12-16 11:52:50][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 11:52:50][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 11:52:50][INFO] [回复]: 
+[2025-12-16 11:52:50][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 11:52:52][INFO] Client is speaking
+[2025-12-16 11:52:55][INFO] Client disconnected
+[2025-12-16 11:52:55][INFO] 程序已被用户中断
+[2025-12-16 11:52:55][INFO] 事件循环已关闭
+[2025-12-16 12:12:55][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 12:15:58][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 12:15:59][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 12:15:59][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 12:15:59][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 12:15:59][WARNING] Vocab path not found: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall/tokens.json, decoding will return raw IDs
+[2025-12-16 12:15:59][ERROR] Failed to init ONNX Runtime CPU: [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed:Load model /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed. File doesn't exist
+[2025-12-16 12:16:03][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 12:16:04][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 12:16:04][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 12:16:04][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 12:17:21][INFO] Shutting down WebRTC server...
+[2025-12-16 12:17:21][INFO] WebRTC server shutdown complete
+[2025-12-16 12:17:21][INFO] 服务器已关闭。
+[2025-12-16 12:17:21][INFO] 程序已被用户中断
+[2025-12-16 12:17:21][INFO] 事件循环已关闭
+[2025-12-16 12:20:18][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 12:20:18][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 12:20:18][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 12:20:19][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 12:20:19][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 12:20:26][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 12:20:30][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 12:20:30][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 12:20:30][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 12:20:30][INFO] Clients should POST SDP offer to /offer endpoint
+                                                                                                                                                                                                                                                                                [2025-12-16 16:24:08][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 16:24:10][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 16:24:10][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 16:24:10][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 16:24:10][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 16:24:21][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 16:24:27][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 16:24:28][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 16:24:28][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 16:24:28][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 16:26:16][INFO] 程序已被用户中断
+[2025-12-16 16:26:16][INFO] 事件循环已关闭
+[2025-12-16 16:26:29][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 16:26:30][INFO] 🔌 WebSocket模式: 使用TCP传输 (传统模式)
+[2025-12-16 16:26:30][INFO] 💡 提示: 使用 --webrtc 参数启用低延迟模式
+[2025-12-16 16:26:30][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 16:26:30][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 16:26:38][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 16:26:42][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 16:26:43][INFO] === 启动 WebSocket 服务器模式 (传统TCP传输) ===
+[2025-12-16 16:26:43][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 16:26:50][INFO] Client connected
+[2025-12-16 16:26:50][INFO] Authentication successful
+[2025-12-16 16:26:55][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 16:26:55][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 16:26:55][INFO] Client is idle, resetting services
+[2025-12-16 16:28:00][WARNING] Connection closed: no close frame received or sent
+[2025-12-16 16:28:00][INFO] Client disconnected
+[2025-12-16 16:30:06][INFO] 程序已被用户中断
+[2025-12-16 16:30:06][INFO] 事件循环已关闭
+[2025-12-16 16:30:11][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 16:30:12][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 16:30:12][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 16:30:12][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 16:30:12][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 16:30:20][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 16:30:24][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 16:30:24][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 16:30:24][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 16:30:24][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 16:30:46][INFO] Shutting down WebRTC server...
+[2025-12-16 16:30:46][INFO] WebRTC server shutdown complete
+[2025-12-16 16:30:46][INFO] 服务器已关闭。
+[2025-12-16 16:30:46][INFO] 程序已被用户中断
+[2025-12-16 16:30:46][INFO] 事件循环已关闭
+[2025-12-16 16:43:04][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 16:43:05][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 16:43:05][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 16:43:05][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 16:43:05][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 16:43:13][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 16:43:17][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 16:43:17][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 16:43:17][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 16:43:17][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 16:44:05][INFO] 程序已被用户中断
+[2025-12-16 16:44:05][INFO] 事件循环已关闭
+[2025-12-16 16:44:11][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 16:44:12][INFO] 🔌 WebSocket模式: 使用TCP传输 (传统模式)
+[2025-12-16 16:44:12][INFO] 💡 提示: 使用 --webrtc 参数启用低延迟模式
+[2025-12-16 16:44:12][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 16:44:12][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 16:44:20][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 16:44:24][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 16:44:24][INFO] === 启动 WebSocket 服务器模式 (传统TCP传输) ===
+[2025-12-16 16:44:24][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 16:46:07][INFO] 程序已被用户中断
+[2025-12-16 16:46:07][INFO] 事件循环已关闭
+[2025-12-16 16:47:52][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 16:47:53][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 16:47:53][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 16:47:53][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 16:47:53][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 16:48:03][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 16:48:08][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 16:48:08][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 16:48:08][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 16:48:08][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 18:04:26][ERROR] Error in offer handler: Invalid control character at: line 1 column 12 (char 11)
+[2025-12-16 18:04:53][INFO] Shutting down WebRTC server...
+[2025-12-16 18:04:53][INFO] WebRTC server shutdown complete
+[2025-12-16 18:04:53][INFO] 服务器已关闭。
+[2025-12-16 18:04:53][INFO] 程序已被用户中断
+[2025-12-16 18:04:53][INFO] 事件循环已关闭
+[2025-12-16 18:28:11][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 18:28:12][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 18:28:12][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 18:28:13][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 18:28:13][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 18:28:20][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 18:28:24][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 18:28:24][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 18:28:24][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 18:28:24][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 18:28:27][INFO] New WebRTC connection: 255085033042224
+[2025-12-16 18:28:27][INFO] ICE connection state: checking
+[2025-12-16 18:28:27][INFO] WebRTC connection state: connecting
+[2025-12-16 18:28:27][INFO] ICE connection state: completed
+[2025-12-16 18:28:27][INFO] WebRTC connection state: connected
+[2025-12-16 18:28:27][INFO] WebRTC connection 255085033042224 established
+[2025-12-16 18:28:27][INFO] DataChannel opened: audio (id=3)
+[2025-12-16 18:28:27][INFO] DataChannel opened: text (id=1)
+[2025-12-16 18:28:31][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 18:28:32][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 18:28:32][INFO] Client is idle, resetting services
+[2025-12-16 18:29:08][INFO] Client is speaking
+[2025-12-16 18:29:14][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 18:29:14][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 18:29:14][INFO] asr result: 今天天气怎么样
+[2025-12-16 18:29:14][ERROR] LLM Exception: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xe7ff89a88490>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2025-12-16 18:29:14][INFO] [意图识别结果]: 抱歉，发生了一些错误。
+[2025-12-16 18:29:14][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-16 18:29:14][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 18:29:14][INFO] [回复]: 
+[2025-12-16 18:29:14][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 18:29:14][ERROR] LLM Stream Exception: HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xe7ff89a88370>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2025-12-16 18:29:14][ERROR] TTS Failed: <dashscope.audio.tts.speech_synthesizer.SpeechSynthesisResult object at 0xe7ff89e2fdf0>
+[2025-12-16 18:30:41][INFO] DataChannel audio closed
+[2025-12-16 18:30:41][INFO] DataChannel text closed
+[2025-12-16 18:30:41][INFO] ICE connection state: closed
+[2025-12-16 18:30:41][INFO] WebRTC connection state: closed
+[2025-12-16 18:30:41][INFO] WebRTC connection 255085033042224 closed
+[2025-12-16 18:30:41][INFO] Connection 255085033042224 cleaned up
+[2025-12-16 18:34:12][INFO] 程序已被用户中断
+[2025-12-16 18:34:12][INFO] 事件循环已关闭
+[2025-12-16 18:34:16][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 18:34:16][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 18:34:16][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 18:34:17][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 18:34:17][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 18:34:25][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 18:34:29][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 18:34:29][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 18:34:29][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 18:34:29][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 18:34:33][INFO] New WebRTC connection: 255084696633248
+[2025-12-16 18:34:38][INFO] ICE connection state: checking
+[2025-12-16 18:34:38][INFO] WebRTC connection state: connecting
+[2025-12-16 18:34:38][INFO] ICE connection state: completed
+[2025-12-16 18:34:38][INFO] WebRTC connection state: connected
+[2025-12-16 18:34:38][INFO] WebRTC connection 255084696633248 established
+[2025-12-16 18:34:38][INFO] DataChannel opened: audio (id=3)
+[2025-12-16 18:34:38][INFO] DataChannel opened: text (id=1)
+[2025-12-16 18:34:43][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 18:34:43][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 18:34:43][INFO] Client is idle, resetting services
+[2025-12-16 18:35:15][INFO] Client is speaking
+[2025-12-16 18:35:22][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 18:35:22][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 18:35:22][INFO] asr result: 今天天气怎么样
+[2025-12-16 18:35:23][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 18:35:23][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 18:35:23][INFO] [回复]: 
+[2025-12-16 18:35:23][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 18:42:37][INFO] DataChannel audio closed
+[2025-12-16 18:42:37][INFO] DataChannel text closed
+[2025-12-16 18:42:37][INFO] ICE connection state: closed
+[2025-12-16 18:42:37][INFO] WebRTC connection state: closed
+[2025-12-16 18:42:37][INFO] WebRTC connection 255084696633248 closed
+[2025-12-16 18:42:37][INFO] Connection 255084696633248 cleaned up
+[2025-12-16 19:05:40][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:05:42][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:05:42][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:05:42][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:05:42][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:05:53][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:05:59][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:06:00][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:06:00][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:06:00][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:06:15][INFO] New WebRTC connection: 255085279243952
+[2025-12-16 19:06:20][INFO] ICE connection state: checking
+[2025-12-16 19:06:20][INFO] WebRTC connection state: connecting
+[2025-12-16 19:06:20][INFO] ICE connection state: completed
+[2025-12-16 19:06:20][INFO] WebRTC connection state: connected
+[2025-12-16 19:06:20][INFO] WebRTC connection 255085279243952 established
+[2025-12-16 19:06:20][INFO] DataChannel opened: audio (id=3)
+[2025-12-16 19:06:20][INFO] DataChannel opened: text (id=1)
+[2025-12-16 19:06:25][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:06:25][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:06:25][INFO] Client is idle, resetting services
+[2025-12-16 19:07:06][INFO] Client is speaking
+[2025-12-16 19:07:13][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:07:13][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 19:07:13][INFO] asr result: 今天天气怎么样
+[2025-12-16 19:07:13][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:07:13][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:07:13][INFO] [回复]: 
+[2025-12-16 19:07:13][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:07:16][INFO] Received TTS data: 130800 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 83 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 71 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 71 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 112 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 79 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 106 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 93 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 97 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 92 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 63 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 82 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 91 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 83 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 62 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 92 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 97 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 103 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 83 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 82 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 108 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 114 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 92 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 80 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 88 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 50 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 23 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 36 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 80 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 107 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 121 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 60 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 77 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 83 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:07:16][INFO] Encoded and queued audio frame: 76 bytes
+[2025-12-16 19:07:31][INFO] Shutting down WebRTC server...
+[2025-12-16 19:07:31][INFO] DataChannel audio closed
+[2025-12-16 19:07:31][INFO] DataChannel text closed
+[2025-12-16 19:07:31][INFO] ICE connection state: closed
+[2025-12-16 19:07:31][INFO] WebRTC connection state: closed
+[2025-12-16 19:07:31][INFO] WebRTC connection 255085279243952 closed
+[2025-12-16 19:07:31][INFO] WebRTC server shutdown complete
+[2025-12-16 19:07:31][INFO] 服务器已关闭。
+[2025-12-16 19:07:31][INFO] 程序已被用户中断
+[2025-12-16 19:07:31][INFO] 事件循环已关闭
+[2025-12-16 19:10:10][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:10:10][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:10:10][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:10:11][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:10:11][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:10:18][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:10:22][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:10:22][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:10:22][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:10:22][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:10:24][INFO] New WebRTC connection: 255084387574064
+[2025-12-16 19:10:29][INFO] ICE connection state: checking
+[2025-12-16 19:10:29][INFO] WebRTC connection state: connecting
+[2025-12-16 19:10:29][INFO] ICE connection state: completed
+[2025-12-16 19:10:29][INFO] WebRTC connection state: connected
+[2025-12-16 19:10:29][INFO] WebRTC connection 255084387574064 established
+[2025-12-16 19:10:29][INFO] DataChannel opened: audio (id=3)
+[2025-12-16 19:10:29][INFO] DataChannel opened: text (id=1)
+[2025-12-16 19:10:34][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:10:34][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:10:34][INFO] Client is idle, resetting services
+[2025-12-16 19:10:49][INFO] Client is speaking
+[2025-12-16 19:10:56][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:10:56][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 19:10:56][INFO] asr result: 今天天气怎么样
+[2025-12-16 19:10:57][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:10:57][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:10:57][INFO] [回复]: 
+[2025-12-16 19:10:57][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:10:59][INFO] Received TTS data: 112400 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 88 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 97 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 83 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 114 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 93 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 93 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 116 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 116 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 91 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 82 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 78 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 106 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 92 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 91 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 92 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 104 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 91 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 81 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 92 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 107 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 99 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 93 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 71 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 53 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 58 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 55 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 50 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 52 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 106 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 100 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 96 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 107 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 114 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 102 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 89 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 101 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 106 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 93 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 98 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 86 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 109 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 105 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 85 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 91 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 106 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 90 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 95 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 107 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 85 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 88 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 94 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 77 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 76 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 87 bytes
+[2025-12-16 19:10:59][INFO] Encoded and queued audio frame: 80 bytes
+[2025-12-16 19:14:52][INFO] 程序已被用户中断
+[2025-12-16 19:14:52][INFO] 事件循环已关闭
+[2025-12-16 19:15:22][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:15:23][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:15:23][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:15:23][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:15:23][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:15:31][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:15:35][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:15:35][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:15:35][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:15:35][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:15:43][INFO] New WebRTC connection: 255085104594896
+[2025-12-16 19:15:48][INFO] ICE connection state: checking
+[2025-12-16 19:15:48][INFO] WebRTC connection state: connecting
+[2025-12-16 19:15:48][INFO] ICE connection state: completed
+[2025-12-16 19:15:48][INFO] WebRTC connection state: connected
+[2025-12-16 19:15:48][INFO] WebRTC connection 255085104594896 established
+[2025-12-16 19:15:48][INFO] DataChannel opened: audio (id=3)
+[2025-12-16 19:15:48][INFO] DataChannel opened: text (id=1)
+[2025-12-16 19:15:53][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:15:53][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:15:53][INFO] Client is idle, resetting services
+[2025-12-16 19:16:11][INFO] Client is speaking
+[2025-12-16 19:16:17][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:16:17][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 19:16:17][INFO] asr result: 今天天气怎么样
+[2025-12-16 19:16:17][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:16:17][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:16:17][INFO] [回复]: 
+[2025-12-16 19:16:17][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:16:19][INFO] Received TTS data: 82800 bytes
+[2025-12-16 19:16:19][INFO] Encoded and queued audio frame: 100 bytes. Queue size: 50
+[2025-12-16 19:17:17][INFO] 程序已被用户中断
+[2025-12-16 19:17:17][INFO] 事件循环已关闭
+[2025-12-16 19:19:17][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:19:18][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:19:18][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:19:18][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:19:18][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:19:26][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:19:30][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:19:30][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:19:30][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:19:30][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:19:32][INFO] New WebRTC connection: 255085112009008
+[2025-12-16 19:19:37][INFO] ICE connection state: checking
+[2025-12-16 19:19:37][INFO] WebRTC connection state: connecting
+[2025-12-16 19:19:37][INFO] ICE connection state: completed
+[2025-12-16 19:19:37][INFO] WebRTC connection state: connected
+[2025-12-16 19:19:37][INFO] WebRTC connection 255085112009008 established
+[2025-12-16 19:19:37][INFO] DataChannel event: audio (id=3) State: open
+[2025-12-16 19:19:37][INFO] DataChannel audio already open, setting up immediately.
+[2025-12-16 19:19:37][INFO] Setting up channel audio for 255085112009008
+[2025-12-16 19:19:37][INFO] DataChannel event: text (id=1) State: open
+[2025-12-16 19:19:37][INFO] DataChannel text already open, setting up immediately.
+[2025-12-16 19:19:37][INFO] Setting up channel text for 255085112009008
+[2025-12-16 19:19:37][INFO] Starting process_send_queue task for 255085112009008
+[2025-12-16 19:19:37][INFO] Starting send queue processor for connection 255085112009008. Channel state: open
+[2025-12-16 19:19:42][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:19:42][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:19:42][INFO] Client is idle, resetting services
+[2025-12-16 19:19:42][INFO] Sending text data: {"type": "tts", "state": "end"}...
+[2025-12-16 19:19:42][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:19:47][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:19:48][INFO] Client is speaking
+[2025-12-16 19:19:53][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:19:59][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:19:59][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-16 19:19:59][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-16 19:19:59][INFO] Sending text data: {"type": "asr", "text": "\u4f60\u53eb\u4ec0\u4e48\...
+[2025-12-16 19:19:59][INFO] Server is thinking
+[2025-12-16 19:19:59][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:19:59][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:19:59][INFO] [回复]: 
+[2025-12-16 19:19:59][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:20:00][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:01][INFO] Received TTS data: 179200 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 76 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 67 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 51 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 84 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 81 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 117 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 113 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 84 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 68 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:01][INFO] Client is speaking
+[2025-12-16 19:20:01][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 80 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 78 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 77 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 69 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 55 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 56 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 51 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 52 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 62 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 108 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 74 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 108 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 82 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 80 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:01][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 77 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 73 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 81 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 34 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 23 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 24 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 66 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:02][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Received TTS data: 164000 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 58 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 107 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 111 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 82 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 109 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 111 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 79 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 71 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:03][INFO] Send queue processor heartbeat. Queue size: 1
+[2025-12-16 19:20:03][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 111 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 107 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 73 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 107 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 81 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 63 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 53 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 57 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 53 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 54 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 60 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 114 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 118 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 68 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 107 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 63 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 54 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 55 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 55 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 62 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 110 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 75 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 111 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 98 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:03][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:04][INFO] Received TTS data: 122800 bytes
+[2025-12-16 19:20:04][INFO] Sending text data: {"type": "tts", "state": "end"}...
+[2025-12-16 19:20:04][INFO] Sent audio data: 63 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 81 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 110 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 81 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 110 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 79 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 76 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 74 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 55 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 63 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 57 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 54 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 56 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 80 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 88 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 104 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 112 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 83 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 78 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 87 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 76 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 61 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 52 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 52 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 52 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 111 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 84 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 94 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 105 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 92 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 103 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 80 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 108 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 97 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 95 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 86 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 85 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 107 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 115 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 91 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 82 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 59 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 99 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 102 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 100 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 90 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 63 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 106 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 93 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 101 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 96 bytes
+[2025-12-16 19:20:04][INFO] Sent audio data: 89 bytes
+[2025-12-16 19:20:06][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:11][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:16][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:21][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:23][WARNING] vad result: no_speech
+[2025-12-16 19:20:23][INFO] Sending text data: {"type": "vad", "state": "no_speech"}...
+[2025-12-16 19:20:23][INFO] Client is idle, resetting services
+[2025-12-16 19:20:23][INFO] Sending text data: {"type": "tts", "state": "end"}...
+[2025-12-16 19:20:26][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:32][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:37][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:42][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:47][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:52][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:20:57][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:02][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:07][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:12][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:17][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:22][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:27][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:32][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:38][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:43][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:48][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:53][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:21:58][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:03][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:08][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:13][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:18][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:23][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:28][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:33][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:38][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:44][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:49][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:54][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:22:59][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:04][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:09][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:14][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:19][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:24][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:29][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:34][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:39][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:44][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:49][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:23:55][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:00][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:05][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:10][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:15][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:20][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:25][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:30][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:35][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:40][INFO] Send queue processor heartbeat. Queue size: 0
+[2025-12-16 19:24:42][INFO] 程序已被用户中断
+[2025-12-16 19:24:42][INFO] 事件循环已关闭
+[2025-12-16 19:26:10][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:26:11][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:26:11][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:26:11][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:26:11][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:26:19][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:26:23][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:26:23][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:26:23][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:26:23][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:26:31][INFO] New WebRTC connection: 255084285600048
+[2025-12-16 19:26:36][INFO] ICE connection state: checking
+[2025-12-16 19:26:36][INFO] WebRTC connection state: connecting
+[2025-12-16 19:26:36][INFO] ICE connection state: completed
+[2025-12-16 19:26:36][INFO] WebRTC connection state: connected
+[2025-12-16 19:26:36][INFO] WebRTC connection 255084285600048 established
+[2025-12-16 19:26:36][INFO] DataChannel event: audio (id=3)
+[2025-12-16 19:26:36][INFO] DataChannel event: text (id=1)
+[2025-12-16 19:26:36][INFO] Starting send queue processor for connection 255084285600048
+[2025-12-16 19:26:41][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:26:41][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:26:41][INFO] Client is idle, resetting services
+[2025-12-16 19:26:45][INFO] Client is speaking
+[2025-12-16 19:26:50][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:26:50][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字',), {}
+[2025-12-16 19:26:50][INFO] asr result: 你叫什么名字
+[2025-12-16 19:26:51][INFO] Server is thinking
+[2025-12-16 19:26:51][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:26:51][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:26:51][INFO] [回复]: 
+[2025-12-16 19:26:51][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:26:54][INFO] Client is speaking
+[2025-12-16 19:27:07][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字',), {}
+[2025-12-16 19:27:07][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:27:07][INFO] asr result: 你叫什么名字
+[2025-12-16 19:27:07][INFO] Server is thinking
+[2025-12-16 19:27:08][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:27:08][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:27:08][INFO] [回复]: 
+[2025-12-16 19:27:08][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:27:12][INFO] Client is speaking
+[2025-12-16 19:27:22][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏座椅',), {}
+[2025-12-16 19:27:22][INFO] asr result: 鲲鹏座椅
+[2025-12-16 19:27:22][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:27:22][INFO] Server is thinking
+[2025-12-16 19:27:23][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:27:23][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:27:23][INFO] [回复]: 
+[2025-12-16 19:27:23][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:27:25][INFO] Client is speaking
+[2025-12-16 19:27:41][INFO] 任务提交成功: chat_start_task, 参数: ('谢',), {}
+[2025-12-16 19:27:41][INFO] asr result: 谢
+[2025-12-16 19:27:41][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:27:41][INFO] Server is thinking
+[2025-12-16 19:27:42][INFO] [意图识别结果]: {"function_call": {"name": "exit_chat"}}
+[2025-12-16 19:27:42][INFO] [准备调用] {'function_call': {'name': 'exit_chat'}}
+[2025-12-16 19:27:42][INFO] [回复]: 
+[2025-12-16 19:27:42][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:27:44][INFO] Client is speaking
+[2025-12-16 19:27:47][INFO] Client is idle, resetting services
+[2025-12-16 19:31:44][INFO] Send queue processor stopped for connection 255084285600048
+[2025-12-16 19:31:44][INFO] 程序已被用户中断
+[2025-12-16 19:31:44][INFO] 事件循环已关闭
+[2025-12-16 19:47:47][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:47:48][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:47:48][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:47:48][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:47:48][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:47:56][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:48:00][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:48:01][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:48:01][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:48:01][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:48:04][INFO] New WebRTC connection: 255085449322448
+[2025-12-16 19:48:09][INFO] ICE connection state: checking
+[2025-12-16 19:48:09][INFO] WebRTC connection state: connecting
+[2025-12-16 19:48:09][INFO] ICE connection state: completed
+[2025-12-16 19:48:09][INFO] WebRTC connection state: connected
+[2025-12-16 19:48:09][INFO] WebRTC connection 255085449322448 established
+[2025-12-16 19:48:09][INFO] DataChannel event: audio (id=3)
+[2025-12-16 19:48:09][INFO] DataChannel event: text (id=1)
+[2025-12-16 19:48:09][INFO] Starting send queue processor for connection 255085449322448
+[2025-12-16 19:48:14][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:48:14][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:48:14][INFO] Client is idle, resetting services
+[2025-12-16 19:48:40][INFO] Client is speaking
+[2025-12-16 19:48:47][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:48:47][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字',), {}
+[2025-12-16 19:48:47][INFO] asr result: 你叫什么名字
+[2025-12-16 19:48:47][INFO] Server is thinking
+[2025-12-16 19:48:47][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:48:47][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:48:47][INFO] [回复]: 
+[2025-12-16 19:48:47][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:48:52][INFO] Client is speaking
+[2025-12-16 19:49:00][INFO] 任务提交成功: chat_start_task, 参数: ('海关',), {}
+[2025-12-16 19:49:00][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:49:00][INFO] asr result: 海关
+[2025-12-16 19:49:00][INFO] Server is thinking
+[2025-12-16 19:49:01][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:49:01][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:49:01][INFO] [回复]: 
+[2025-12-16 19:49:01][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:49:03][INFO] Client is speaking
+[2025-12-16 19:49:17][INFO] 任务提交成功: chat_start_task, 参数: ('太鲲鹏',), {}
+[2025-12-16 19:49:17][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:49:17][INFO] asr result: 太鲲鹏
+[2025-12-16 19:49:17][INFO] Server is thinking
+[2025-12-16 19:49:18][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:49:18][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:49:18][INFO] [回复]: 
+[2025-12-16 19:49:18][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:49:20][INFO] Client is speaking
+[2025-12-16 19:49:39][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 19:49:39][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:49:39][INFO] asr result: 今天天气怎么样
+[2025-12-16 19:49:39][INFO] Server is thinking
+[2025-12-16 19:49:39][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:49:39][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:49:39][INFO] [回复]: 
+[2025-12-16 19:49:39][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:49:41][INFO] Client is speaking
+[2025-12-16 19:49:51][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 19:49:51][INFO] asr result: 
+[2025-12-16 19:49:51][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:49:51][INFO] Server is thinking
+[2025-12-16 19:49:52][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:49:52][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:49:52][INFO] [回复]: 
+[2025-12-16 19:49:52][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:49:53][INFO] Client is speaking
+[2025-12-16 19:50:10][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-16 19:50:10][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:50:10][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-16 19:50:10][INFO] Server is thinking
+[2025-12-16 19:50:11][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:50:11][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:50:11][INFO] [回复]: 
+[2025-12-16 19:50:11][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:50:14][INFO] Client is speaking
+[2025-12-16 19:50:39][INFO] 任务提交成功: chat_start_task, 参数: ('怎么样不知道该删什么',), {}
+[2025-12-16 19:50:39][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:50:39][INFO] asr result: 怎么样不知道该删什么
+[2025-12-16 19:50:40][INFO] Server is thinking
+[2025-12-16 19:50:40][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:50:40][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:50:40][INFO] [回复]: 
+[2025-12-16 19:50:40][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:50:42][INFO] Client is speaking
+[2025-12-16 19:51:00][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 19:51:00][INFO] asr result: 
+[2025-12-16 19:51:00][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:51:00][INFO] Server is thinking
+[2025-12-16 19:51:01][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:51:01][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:51:01][INFO] [回复]: 
+[2025-12-16 19:51:01][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:51:03][INFO] Client is speaking
+[2025-12-16 19:51:22][INFO] 任务提交成功: chat_start_task, 参数: ('提示词说清楚',), {}
+[2025-12-16 19:51:22][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 19:51:22][INFO] asr result: 提示词说清楚
+[2025-12-16 19:51:22][INFO] Server is thinking
+[2025-12-16 19:51:22][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 19:51:22][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 19:51:22][INFO] [回复]: 
+[2025-12-16 19:51:22][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 19:51:24][INFO] Client is speaking
+[2025-12-16 19:51:46][INFO] New WebRTC connection: 255084803513648
+[2025-12-16 19:51:51][INFO] ICE connection state: checking
+[2025-12-16 19:51:51][INFO] WebRTC connection state: connecting
+[2025-12-16 19:51:51][INFO] ICE connection state: completed
+[2025-12-16 19:51:51][INFO] WebRTC connection state: connected
+[2025-12-16 19:51:51][INFO] WebRTC connection 255084803513648 established
+[2025-12-16 19:51:51][INFO] DataChannel event: audio (id=3)
+[2025-12-16 19:51:51][INFO] DataChannel event: text (id=1)
+[2025-12-16 19:51:51][INFO] Starting send queue processor for connection 255084803513648
+[2025-12-16 19:51:54][INFO] 程序已被用户中断
+[2025-12-16 19:51:54][INFO] 事件循环已关闭
+[2025-12-16 19:54:03][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:54:04][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:54:04][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:54:04][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:54:04][WARNING] Vocab path not found: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall/tokens.json, decoding will return raw IDs
+[2025-12-16 19:54:04][ERROR] Failed to init ONNX Runtime CPU: [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed:Load model /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed. File doesn't exist
+[2025-12-16 19:54:08][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:54:08][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:54:08][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:54:08][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:54:10][INFO] 程序已被用户中断
+[2025-12-16 19:54:10][INFO] 事件循环已关闭
+[2025-12-16 19:55:50][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:55:51][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:55:51][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:55:52][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat//Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:55:52][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:55:59][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:56:03][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:56:03][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:56:03][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:56:03][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:56:35][INFO] New WebRTC connection: 255085025562432
+[2025-12-16 19:56:40][INFO] ICE connection state: checking
+[2025-12-16 19:56:40][INFO] WebRTC connection state: connecting
+[2025-12-16 19:56:40][INFO] ICE connection state: completed
+[2025-12-16 19:56:40][INFO] WebRTC connection state: connected
+[2025-12-16 19:56:40][INFO] WebRTC connection 255085025562432 established
+[2025-12-16 19:56:40][INFO] DataChannel event: audio (id=3)
+[2025-12-16 19:56:40][INFO] DataChannel event: text (id=1)
+[2025-12-16 19:56:40][INFO] Starting send queue processor for connection 255085025562432
+[2025-12-16 19:56:45][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:56:45][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:56:45][INFO] Client is idle, resetting services
+[2025-12-16 19:56:56][INFO] Client is speaking
+[2025-12-16 19:57:25][INFO] 程序已被用户中断
+[2025-12-16 19:57:25][INFO] 事件循环已关闭
+[2025-12-16 19:58:57][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 19:58:57][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 19:58:57][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 19:58:58][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat//Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 19:58:58][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 19:59:06][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 19:59:09][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 19:59:10][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 19:59:10][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 19:59:10][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 19:59:12][INFO] New WebRTC connection: 255085300162176
+[2025-12-16 19:59:17][INFO] ICE connection state: checking
+[2025-12-16 19:59:17][INFO] WebRTC connection state: connecting
+[2025-12-16 19:59:17][INFO] ICE connection state: completed
+[2025-12-16 19:59:17][INFO] WebRTC connection state: connected
+[2025-12-16 19:59:17][INFO] WebRTC connection 255085300162176 established
+[2025-12-16 19:59:17][INFO] DataChannel event: audio (id=3)
+[2025-12-16 19:59:17][INFO] DataChannel event: text (id=1)
+[2025-12-16 19:59:17][INFO] Starting send queue processor for connection 255085300162176
+[2025-12-16 19:59:22][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 19:59:22][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 19:59:22][INFO] Client is idle, resetting services
+[2025-12-16 19:59:32][INFO] Client is speaking
+[2025-12-16 19:59:39][WARNING] vad result: no_speech
+[2025-12-16 19:59:39][INFO] Client is idle, resetting services
+[2025-12-16 19:59:47][INFO] Client is speaking
+[2025-12-16 19:59:54][WARNING] vad result: no_speech
+[2025-12-16 19:59:54][INFO] Client is idle, resetting services
+[2025-12-16 20:01:43][INFO] Shutting down WebRTC server...
+[2025-12-16 20:01:43][INFO] Send queue processor stopped for connection 255085300162176
+[2025-12-16 20:01:43][INFO] DataChannel audio closed
+[2025-12-16 20:01:43][INFO] DataChannel text closed
+[2025-12-16 20:01:43][INFO] ICE connection state: closed
+[2025-12-16 20:01:43][INFO] WebRTC connection state: closed
+[2025-12-16 20:01:43][INFO] WebRTC connection 255085300162176 closed
+[2025-12-16 20:01:43][INFO] WebRTC server shutdown complete
+[2025-12-16 20:01:43][INFO] 服务器已关闭。
+[2025-12-16 20:01:43][INFO] 程序已被用户中断
+[2025-12-16 20:01:43][INFO] 事件循环已关闭
+[2025-12-16 20:02:01][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 20:02:02][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 20:02:02][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 20:02:02][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat//Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 20:02:02][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 20:02:10][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 20:02:13][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 20:02:14][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 20:02:14][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 20:02:14][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 20:02:16][INFO] New WebRTC connection: 255085032771488
+[2025-12-16 20:02:21][INFO] ICE connection state: checking
+[2025-12-16 20:02:21][INFO] WebRTC connection state: connecting
+[2025-12-16 20:02:21][INFO] ICE connection state: completed
+[2025-12-16 20:02:21][INFO] WebRTC connection state: connected
+[2025-12-16 20:02:21][INFO] WebRTC connection 255085032771488 established
+[2025-12-16 20:02:21][INFO] DataChannel event: audio (id=3)
+[2025-12-16 20:02:21][INFO] DataChannel event: text (id=1)
+[2025-12-16 20:02:21][INFO] Starting send queue processor for connection 255085032771488
+[2025-12-16 20:02:26][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 20:02:26][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 20:02:26][INFO] Client is idle, resetting services
+[2025-12-16 20:02:33][INFO] Client is speaking
+[2025-12-16 20:02:41][WARNING] vad result: no_speech
+[2025-12-16 20:02:41][INFO] Client is idle, resetting services
+[2025-12-16 20:02:46][INFO] Client is speaking
+[2025-12-16 20:02:53][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:02:53][INFO] 任务提交成功: chat_start_task, 参数: ('我调查',), {}
+[2025-12-16 20:02:53][INFO] asr result: 我调查
+[2025-12-16 20:02:53][INFO] Server is thinking
+[2025-12-16 20:02:53][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:02:53][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:02:53][INFO] [回复]: 
+[2025-12-16 20:02:53][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:02:55][INFO] Client is speaking
+[2025-12-16 20:03:05][INFO] 任务提交成功: chat_start_task, 参数: ('我这笑',), {}
+[2025-12-16 20:03:05][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:03:05][INFO] asr result: 我这笑
+[2025-12-16 20:03:05][INFO] Server is thinking
+[2025-12-16 20:03:05][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:03:05][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:03:05][INFO] [回复]: 
+[2025-12-16 20:03:05][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:03:07][INFO] Client is speaking
+[2025-12-16 20:03:20][WARNING] vad result: no_speech
+[2025-12-16 20:03:20][INFO] Client is idle, resetting services
+[2025-12-16 20:03:26][INFO] Client is speaking
+[2025-12-16 20:03:32][INFO] 任务提交成功: chat_start_task, 参数: ('这个开的',), {}
+[2025-12-16 20:03:32][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:03:32][INFO] asr result: 这个开的
+[2025-12-16 20:03:32][INFO] Server is thinking
+[2025-12-16 20:03:32][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:03:32][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:03:32][INFO] [回复]: 
+[2025-12-16 20:03:32][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:03:36][INFO] Client is speaking
+[2025-12-16 20:03:48][WARNING] vad result: no_speech
+[2025-12-16 20:03:48][INFO] Client is idle, resetting services
+[2025-12-16 20:09:47][INFO] 程序已被用户中断
+[2025-12-16 20:09:47][INFO] 事件循环已关闭
+[2025-12-16 20:10:31][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 20:10:31][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 20:10:31][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 20:10:32][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 20:10:32][WARNING] Vocab path not found: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall/tokens.json, decoding will return raw IDs
+[2025-12-16 20:10:32][ERROR] Failed to init ONNX Runtime CPU: [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed:Load model /home/openEuler/KunpengChat/Server/sensevoice_onnx_quant/model_quant.onnx failed. File doesn't exist
+[2025-12-16 20:10:34][INFO] 程序已被用户中断
+[2025-12-16 20:10:34][INFO] 事件循环已关闭
+[2025-12-16 20:47:53][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 20:47:53][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 20:47:53][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 20:48:01][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 20:48:05][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 20:48:05][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-16 20:48:58][INFO] 程序已被用户中断
+[2025-12-16 20:48:58][INFO] 事件循环已关闭
+[2025-12-16 20:49:50][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 20:49:51][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 20:49:51][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 20:49:52][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 20:49:52][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 20:49:59][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 20:50:03][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 20:50:03][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 20:50:03][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 20:50:03][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 20:50:05][INFO] New WebRTC connection: 255084549644352
+[2025-12-16 20:50:10][INFO] ICE connection state: checking
+[2025-12-16 20:50:10][INFO] WebRTC connection state: connecting
+[2025-12-16 20:50:11][INFO] ICE connection state: completed
+[2025-12-16 20:50:11][INFO] WebRTC connection state: connected
+[2025-12-16 20:50:11][INFO] WebRTC connection 255084549644352 established
+[2025-12-16 20:50:11][INFO] DataChannel event: audio (id=3)
+[2025-12-16 20:50:11][INFO] DataChannel event: text (id=1)
+[2025-12-16 20:50:11][INFO] Starting send queue processor for connection 255084549644352
+[2025-12-16 20:50:15][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 20:50:15][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 20:50:15][INFO] Client is idle, resetting services
+[2025-12-16 20:50:35][INFO] Client is speaking
+[2025-12-16 20:50:41][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:50:41][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 20:50:41][INFO] asr result: 今天天气怎么样
+[2025-12-16 20:50:41][INFO] Server is thinking
+[2025-12-16 20:50:42][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:50:42][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:50:42][INFO] [回复]: 
+[2025-12-16 20:50:42][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:50:44][INFO] Client is speaking
+[2025-12-16 20:50:57][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-16 20:50:57][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:50:57][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-16 20:50:57][INFO] Server is thinking
+[2025-12-16 20:50:57][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:50:57][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:50:57][INFO] [回复]: 
+[2025-12-16 20:50:57][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:50:59][INFO] Client is speaking
+[2025-12-16 20:51:14][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏',), {}
+[2025-12-16 20:51:14][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:51:14][INFO] asr result: 鲲鹏
+[2025-12-16 20:51:15][INFO] Server is thinking
+[2025-12-16 20:51:15][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:51:15][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:51:15][INFO] [回复]: 
+[2025-12-16 20:51:15][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:51:18][INFO] Client is speaking
+[2025-12-16 20:51:26][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-16 20:51:26][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 20:51:26][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-16 20:51:26][INFO] Server is thinking
+[2025-12-16 20:51:27][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 20:51:27][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 20:51:27][INFO] [回复]: 
+[2025-12-16 20:51:27][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 20:51:29][INFO] Client is speaking
+[2025-12-16 20:51:41][INFO] 程序已被用户中断
+[2025-12-16 20:51:41][INFO] 事件循环已关闭
+[2025-12-16 21:41:08][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-16 21:41:09][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-16 21:41:09][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-16 21:41:09][INFO] Initializing NPU ASR Model with path: /home/openEuler/KunpengChat/Server_webrtc/Server_webrtc1216/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-16 21:41:09][INFO] Loaded vocab with 25055 tokens
+[2025-12-16 21:41:17][INFO] ASR Model loaded with ONNX Runtime (CPU)
+[2025-12-16 21:41:21][INFO] Torch threads set: compute=8, interop=2
+[2025-12-16 21:41:21][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-16 21:41:21][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-16 21:41:21][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-16 21:41:40][INFO] New WebRTC connection: 255084321968576
+[2025-12-16 21:41:45][INFO] ICE connection state: checking
+[2025-12-16 21:41:45][INFO] WebRTC connection state: connecting
+[2025-12-16 21:41:46][INFO] ICE connection state: completed
+[2025-12-16 21:41:46][INFO] WebRTC connection state: connected
+[2025-12-16 21:41:46][INFO] WebRTC connection 255084321968576 established
+[2025-12-16 21:41:46][INFO] DataChannel event: audio (id=3)
+[2025-12-16 21:41:46][INFO] DataChannel event: text (id=1)
+[2025-12-16 21:41:46][INFO] Starting send queue processor for connection 255084321968576
+[2025-12-16 21:41:50][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-16 21:41:50][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-16 21:41:51][INFO] Client is idle, resetting services
+[2025-12-16 21:42:15][INFO] Client is speaking
+[2025-12-16 21:42:22][WARNING] vad result: no_speech
+[2025-12-16 21:42:22][INFO] Client is idle, resetting services
+[2025-12-16 21:42:40][INFO] Client is speaking
+[2025-12-16 21:42:47][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 21:42:47][INFO] 任务提交成功: chat_start_task, 参数: ('今天天气怎么样',), {}
+[2025-12-16 21:42:47][INFO] asr result: 今天天气怎么样
+[2025-12-16 21:42:47][INFO] Server is thinking
+[2025-12-16 21:42:47][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 21:42:47][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 21:42:47][INFO] [回复]: 
+[2025-12-16 21:42:47][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 21:42:50][INFO] Client is speaking
+[2025-12-16 21:43:01][INFO] 任务提交成功: chat_start_task, 参数: ('再试一下鲲鹏做一个笑脸',), {}
+[2025-12-16 21:43:01][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 21:43:01][INFO] asr result: 再试一下鲲鹏做一个笑脸
+[2025-12-16 21:43:02][INFO] Server is thinking
+[2025-12-16 21:43:02][INFO] [意图识别结果]: {"function_call": {"name": "make_smile"}}
+[2025-12-16 21:43:02][INFO] [准备调用] {'function_call': {'name': 'make_smile'}}
+[2025-12-16 21:43:02][INFO] [回复]: 
+[2025-12-16 21:43:02][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 21:43:06][INFO] Client is speaking
+[2025-12-16 21:43:19][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-16 21:43:19][INFO] Calling LLM with Key: sk-99c******b834
+[2025-12-16 21:43:19][INFO] asr result: 
+[2025-12-16 21:43:19][INFO] Server is thinking
+[2025-12-16 21:43:20][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}
+[2025-12-16 21:43:20][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-16 21:43:20][INFO] [回复]: 
+[2025-12-16 21:43:20][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-16 21:43:21][INFO] Client is speaking
+[2025-12-16 21:43:31][WARNING] vad result: no_speech
+[2025-12-16 21:43:31][INFO] Client is idle, resetting services

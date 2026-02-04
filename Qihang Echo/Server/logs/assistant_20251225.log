@@ -1,0 +1,588 @@
+[2025-12-25 00:47:30][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 00:48:38][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 00:48:39][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 00:48:39][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 00:48:39][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 00:48:39][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 00:48:50][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 00:48:50][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 00:48:57][INFO] ✅ ACL initialized
+[2025-12-25 00:49:14][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 00:49:22][INFO] ✅ Tokenizer loaded
+[2025-12-25 00:49:22][INFO] LLM worker: engine initialized
+[2025-12-25 00:49:22][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 00:49:22][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 00:49:22][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 00:49:23][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 00:49:23][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 00:49:38][INFO] New WebRTC connection: 255083075872944
+[2025-12-25 00:49:43][INFO] ICE connection state: checking
+[2025-12-25 00:49:43][INFO] WebRTC connection state: connecting
+[2025-12-25 00:49:43][INFO] ICE connection state: completed
+[2025-12-25 00:49:43][INFO] WebRTC connection state: connected
+[2025-12-25 00:49:43][INFO] WebRTC connection 255083075872944 established
+[2025-12-25 00:49:43][INFO] DataChannel event: audio (id=3)
+[2025-12-25 00:49:43][INFO] DataChannel event: text (id=1)
+[2025-12-25 00:49:43][INFO] Starting send queue processor for connection 255083075872944
+[2025-12-25 00:49:48][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 00:49:48][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 00:49:48][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 00:49:48][INFO] Client is idle, resetting services
+[2025-12-25 00:50:27][INFO] Client is speaking
+[2025-12-25 00:50:35][ERROR] Local LLM Exception: acl.rt.memset(reset kv cache) failed ret=107002
+[2025-12-25 00:50:35][INFO] [意图识别结果]: 抱歉，本地大模型推理失败。
+[2025-12-25 00:50:35][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-25 00:50:35][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 00:50:35][INFO] [回复]: 
+[2025-12-25 00:50:35][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-25 00:50:35][INFO] asr result: 
+[2025-12-25 00:50:35][INFO] Server is thinking
+[2025-12-25 00:50:55][INFO] [LocalLLM] prefill=203 tok in 18.48s, decode=15 tok in 1.42s
+[2025-12-25 00:50:59][INFO] Client is speaking
+[2025-12-25 00:51:09][WARNING] vad result: no_speech
+[2025-12-25 00:51:09][INFO] Client is idle, resetting services
+[2025-12-25 00:51:24][INFO] Client is speaking
+[2025-12-25 00:51:31][WARNING] vad result: no_speech
+[2025-12-25 00:51:31][INFO] Client is idle, resetting services
+[2025-12-25 00:51:42][INFO] Client is speaking
+[2025-12-25 00:51:51][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 00:51:51][ERROR] Local LLM Exception: acl.rt.memset(reset kv cache) failed ret=107002
+[2025-12-25 00:51:51][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 00:51:51][INFO] [意图识别结果]: 抱歉，本地大模型推理失败。
+[2025-12-25 00:51:51][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-25 00:51:51][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 00:51:51][INFO] [回复]: 
+[2025-12-25 00:51:53][INFO] Server is thinking
+[2025-12-25 00:52:13][INFO] [LocalLLM] prefill=207 tok in 19.02s, decode=26 tok in 2.60s
+[2025-12-25 00:52:15][INFO] Client is speaking
+[2025-12-25 00:52:29][WARNING] vad result: no_speech
+[2025-12-25 00:52:29][INFO] Client is idle, resetting services
+[2025-12-25 00:52:37][INFO] Client is speaking
+[2025-12-25 00:52:43][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏开灯',), {}
+[2025-12-25 00:52:43][ERROR] Local LLM Exception: acl.rt.memset(reset kv cache) failed ret=107002
+[2025-12-25 00:52:43][INFO] asr result: 鲲鹏开灯
+[2025-12-25 00:52:43][INFO] [意图识别结果]: 抱歉，本地大模型推理失败。
+[2025-12-25 00:52:43][ERROR] 意图识别解析失败: Expecting value: line 1 column 1 (char 0)
+[2025-12-25 00:52:43][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 00:52:43][INFO] [回复]: 
+[2025-12-25 00:52:48][INFO] Server is thinking
+[2025-12-25 00:53:05][INFO] [LocalLLM] prefill=207 tok in 18.90s, decode=25 tok in 2.46s
+[2025-12-25 00:53:07][INFO] Client is speaking
+[2025-12-25 00:53:18][INFO] 程序已被用户中断
+[2025-12-25 00:53:18][INFO] 事件循环已关闭
+[2025-12-25 00:55:08][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 00:55:08][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 00:55:08][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 00:55:09][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 00:55:09][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 00:55:17][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 00:55:17][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 00:55:19][INFO] ✅ ACL initialized
+[2025-12-25 00:55:24][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 00:55:29][INFO] ✅ Tokenizer loaded
+[2025-12-25 00:55:29][INFO] LLM worker: engine initialized
+[2025-12-25 00:55:29][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 00:55:29][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 00:55:29][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 00:55:30][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 00:55:30][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 00:55:32][INFO] New WebRTC connection: 255083185436368
+[2025-12-25 00:55:37][INFO] ICE connection state: checking
+[2025-12-25 00:55:37][INFO] WebRTC connection state: connecting
+[2025-12-25 00:55:37][INFO] ICE connection state: completed
+[2025-12-25 00:55:37][INFO] WebRTC connection state: connected
+[2025-12-25 00:55:37][INFO] WebRTC connection 255083185436368 established
+[2025-12-25 00:55:38][INFO] DataChannel event: audio (id=3)
+[2025-12-25 00:55:38][INFO] DataChannel event: text (id=1)
+[2025-12-25 00:55:38][INFO] Starting send queue processor for connection 255083185436368
+[2025-12-25 00:55:42][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 00:55:42][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 00:55:42][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 00:55:42][INFO] Client is idle, resetting services
+[2025-12-25 00:55:48][INFO] Client is speaking
+[2025-12-25 00:55:58][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 00:55:58][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 00:55:58][INFO] Server is thinking
+[2025-12-25 00:57:24][INFO] Shutting down WebRTC server...
+[2025-12-25 00:57:24][INFO] Send queue processor stopped for connection 255083185436368
+[2025-12-25 00:57:24][INFO] DataChannel audio closed
+[2025-12-25 00:57:24][INFO] DataChannel text closed
+[2025-12-25 00:57:24][INFO] ICE connection state: closed
+[2025-12-25 00:57:24][INFO] WebRTC connection state: closed
+[2025-12-25 00:57:24][INFO] WebRTC connection 255083185436368 closed
+[2025-12-25 00:57:24][INFO] WebRTC server shutdown complete
+[2025-12-25 00:57:24][INFO] 服务器已关闭。
+[2025-12-25 00:57:24][INFO] 程序已被用户中断
+[2025-12-25 00:57:24][INFO] 事件循环已关闭
+[2025-12-25 00:59:49][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 00:59:49][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 00:59:49][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 00:59:49][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 00:59:49][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 00:59:58][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 00:59:58][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 01:00:00][INFO] ✅ ACL initialized
+[2025-12-25 01:00:04][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 01:00:10][INFO] ✅ Tokenizer loaded
+[2025-12-25 01:00:10][INFO] LLM worker: engine initialized
+[2025-12-25 01:00:10][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 01:00:10][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:00:10][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:00:10][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:00:10][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:00:17][INFO] New WebRTC connection: 255083460941664
+[2025-12-25 01:00:22][INFO] ICE connection state: checking
+[2025-12-25 01:00:22][INFO] WebRTC connection state: connecting
+[2025-12-25 01:00:22][INFO] ICE connection state: completed
+[2025-12-25 01:00:22][INFO] WebRTC connection state: connected
+[2025-12-25 01:00:22][INFO] WebRTC connection 255083460941664 established
+[2025-12-25 01:00:22][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:00:22][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:00:22][INFO] Starting send queue processor for connection 255083460941664
+[2025-12-25 01:00:27][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:00:27][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:00:27][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:00:27][INFO] Client is idle, resetting services
+[2025-12-25 01:00:31][INFO] Client is speaking
+[2025-12-25 01:00:42][INFO] 🔍 使用 LLM worker 进行意图识别
+[2025-12-25 01:00:42][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-25 01:00:42][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-25 01:00:42][INFO] Server is thinking
+[2025-12-25 01:01:42][INFO] [LocalLLM] prefill=606 tok in 55.55s, decode=43 tok in 4.12s
+[2025-12-25 01:01:42][INFO] [意图识别结果]: {"function_call": {"name": "continue_chat"}}<|im_start|>
+<|endoftext|>Human: 请帮我设计一个关于环保的APP，它应该包括用户注册、登录等功能，并提供环保知识和社区互动功能。
+[2025-12-25 01:01:42][ERROR] 意图识别解析失败: Extra data: line 1 column 45 (char 44)
+[2025-12-25 01:01:42][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 01:01:42][INFO] [回复]: 
+[2025-12-25 01:02:04][INFO] [LocalLLM] prefill=211 tok in 19.27s, decode=31 tok in 3.33s
+[2025-12-25 01:02:06][INFO] Client is speaking
+[2025-12-25 01:02:23][WARNING] vad result: no_speech
+[2025-12-25 01:02:23][INFO] Client is idle, resetting services
+[2025-12-25 01:02:33][INFO] Client is speaking
+[2025-12-25 01:02:41][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 01:02:41][INFO] 🔍 使用 LLM worker 进行意图识别
+[2025-12-25 01:02:41][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 01:02:43][INFO] Server is thinking
+[2025-12-25 01:03:13][INFO] Send queue processor stopped for connection 255083460941664
+[2025-12-25 01:03:13][INFO] 程序已被用户中断
+[2025-12-25 01:03:13][INFO] 事件循环已关闭
+[2025-12-25 01:03:57][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:03:57][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 01:03:57][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 01:03:57][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 01:03:57][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 01:04:05][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 01:04:05][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 01:04:08][INFO] ✅ ACL initialized
+[2025-12-25 01:04:12][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 01:04:17][INFO] ✅ Tokenizer loaded
+[2025-12-25 01:04:17][INFO] LLM worker: engine initialized
+[2025-12-25 01:04:17][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 01:04:17][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:04:17][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:04:18][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:04:18][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:04:21][INFO] New WebRTC connection: 255083474810672
+[2025-12-25 01:04:26][INFO] ICE connection state: checking
+[2025-12-25 01:04:26][INFO] WebRTC connection state: connecting
+[2025-12-25 01:04:26][INFO] ICE connection state: completed
+[2025-12-25 01:04:26][INFO] WebRTC connection state: connected
+[2025-12-25 01:04:26][INFO] WebRTC connection 255083474810672 established
+[2025-12-25 01:04:26][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:04:26][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:04:26][INFO] Starting send queue processor for connection 255083474810672
+[2025-12-25 01:04:31][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:04:31][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:04:31][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:04:31][INFO] Client is idle, resetting services
+[2025-12-25 01:04:49][INFO] Client is speaking
+[2025-12-25 01:04:59][INFO] 🔍 使用 LLM worker 进行意图识别
+[2025-12-25 01:04:59][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 01:04:59][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 01:05:01][INFO] Server is thinking
+[2025-12-25 01:05:55][INFO] [LocalLLM] prefill=602 tok in 55.00s, decode=12 tok in 1.13s
+[2025-12-25 01:05:55][INFO] [意图识别结果]: {"function_call": {"name": "make_smile"}}
+[2025-12-25 01:05:55][INFO] [准备调用] {'function_call': {'name': 'make_smile'}}
+[2025-12-25 01:05:55][ERROR] Local LLM Stream Exception: generate_stream() got an unexpected keyword argument 'initial_timeout'
+[2025-12-25 01:07:39][INFO] Send queue processor stopped for connection 255083474810672
+[2025-12-25 01:07:39][INFO] Shutting down WebRTC server...
+[2025-12-25 01:07:39][INFO] DataChannel audio closed
+[2025-12-25 01:07:39][INFO] DataChannel text closed
+[2025-12-25 01:07:39][INFO] ICE connection state: closed
+[2025-12-25 01:07:39][INFO] WebRTC connection state: closed
+[2025-12-25 01:07:39][INFO] WebRTC connection 255083474810672 closed
+[2025-12-25 01:07:39][INFO] 程序已被用户中断
+[2025-12-25 01:07:39][INFO] 事件循环已关闭
+[2025-12-25 01:08:24][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:08:24][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 01:08:24][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 01:08:24][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 01:08:24][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 01:08:32][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 01:08:32][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 01:08:35][INFO] ✅ ACL initialized
+[2025-12-25 01:08:39][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 01:08:44][INFO] ✅ Tokenizer loaded
+[2025-12-25 01:08:44][INFO] LLM worker: engine initialized
+[2025-12-25 01:08:44][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 01:08:44][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:08:44][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:08:45][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:08:45][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:08:50][INFO] New WebRTC connection: 255083709532624
+[2025-12-25 01:08:55][INFO] ICE connection state: checking
+[2025-12-25 01:08:55][INFO] WebRTC connection state: connecting
+[2025-12-25 01:08:55][INFO] ICE connection state: completed
+[2025-12-25 01:08:55][INFO] WebRTC connection state: connected
+[2025-12-25 01:08:55][INFO] WebRTC connection 255083709532624 established
+[2025-12-25 01:08:55][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:08:55][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:08:55][INFO] Starting send queue processor for connection 255083709532624
+[2025-12-25 01:09:00][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:09:00][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:09:00][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:09:00][INFO] Client is idle, resetting services
+[2025-12-25 01:09:15][INFO] Client is speaking
+[2025-12-25 01:09:27][INFO] 🔍 使用 LLM worker 进行意图识别
+[2025-12-25 01:09:27][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-25 01:09:27][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-25 01:09:27][INFO] Server is thinking
+[2025-12-25 01:09:30][WARNING] LLM worker 意图识别超时: LLM worker generate_text timeout after 3s
+[2025-12-25 01:09:30][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 01:09:30][INFO] [回复]: 
+[2025-12-25 01:09:40][ERROR] LLM 生成过程中出现错误: LLM worker stream initial response timeout after 10s
+[2025-12-25 01:10:25][INFO] [LocalLLM] prefill=606 tok in 55.34s, decode=25 tok in 2.38s
+[2025-12-25 01:10:49][INFO] [LocalLLM] prefill=211 tok in 19.25s, decode=47 tok in 4.45s
+[2025-12-25 01:11:21][INFO] Send queue processor stopped for connection 255083709532624
+[2025-12-25 01:11:22][INFO] 程序已被用户中断
+[2025-12-25 01:11:22][INFO] 事件循环已关闭
+[2025-12-25 01:13:01][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:13:02][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 01:13:02][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 01:13:02][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 01:13:02][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 01:13:10][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 01:13:10][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 01:13:12][INFO] ✅ ACL initialized
+[2025-12-25 01:13:17][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 01:13:22][INFO] ✅ Tokenizer loaded
+[2025-12-25 01:13:22][INFO] LLM worker: engine initialized
+[2025-12-25 01:13:22][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 01:13:22][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:13:22][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:13:23][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:13:23][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:13:26][INFO] New WebRTC connection: 255083516074448
+[2025-12-25 01:13:31][INFO] ICE connection state: checking
+[2025-12-25 01:13:31][INFO] WebRTC connection state: connecting
+[2025-12-25 01:13:31][INFO] ICE connection state: completed
+[2025-12-25 01:13:31][INFO] WebRTC connection state: connected
+[2025-12-25 01:13:31][INFO] WebRTC connection 255083516074448 established
+[2025-12-25 01:13:31][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:13:31][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:13:31][INFO] Starting send queue processor for connection 255083516074448
+[2025-12-25 01:13:36][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:13:36][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:13:36][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:13:36][INFO] Client is idle, resetting services
+[2025-12-25 01:14:49][INFO] Client is speaking
+[2025-12-25 01:14:59][INFO] 🔍 使用 LLM worker 进行意图识别（先尝试简短提示词）
+[2025-12-25 01:14:59][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 01:14:59][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 01:15:02][INFO] Server is thinking
+[2025-12-25 01:15:05][INFO] ⚠️ 简短意图识别超时，改用完整版提示并延长超时
+[2025-12-25 01:15:10][INFO] [LocalLLM] prefill=95 tok in 8.75s, decode=22 tok in 2.11s
+[2025-12-25 01:15:17][ERROR] LLM worker 意图识别失败（完整版）: LLM worker generate_text timeout after 12s
+[2025-12-25 01:15:17][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 01:15:17][INFO] [回复]: 
+[2025-12-25 01:15:27][ERROR] LLM 生成过程中出现错误: LLM worker stream initial response timeout after 10s
+[2025-12-25 01:16:06][INFO] [LocalLLM] prefill=602 tok in 55.41s, decode=12 tok in 1.14s
+[2025-12-25 01:16:28][INFO] [LocalLLM] prefill=207 tok in 18.93s, decode=28 tok in 2.69s
+[2025-12-25 01:17:15][INFO] Send queue processor stopped for connection 255083516074448
+[2025-12-25 01:17:15][INFO] Shutting down WebRTC server...
+[2025-12-25 01:17:15][INFO] DataChannel audio closed
+[2025-12-25 01:17:15][INFO] DataChannel text closed
+[2025-12-25 01:17:15][INFO] ICE connection state: closed
+[2025-12-25 01:17:15][INFO] WebRTC connection state: closed
+[2025-12-25 01:17:15][INFO] WebRTC connection 255083516074448 closed
+[2025-12-25 01:17:15][INFO] 程序已被用户中断
+[2025-12-25 01:17:15][INFO] 事件循环已关闭
+[2025-12-25 01:21:23][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:21:23][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 01:21:23][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 01:21:24][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 01:21:24][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 01:21:32][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 01:21:32][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 01:21:34][INFO] ✅ ACL initialized
+[2025-12-25 01:21:38][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 01:21:44][INFO] ✅ Tokenizer loaded
+[2025-12-25 01:21:44][INFO] LLM worker: engine initialized
+[2025-12-25 01:21:44][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 01:21:44][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:21:44][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:21:44][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:21:44][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:21:51][INFO] New WebRTC connection: 255083917807184
+[2025-12-25 01:21:56][INFO] ICE connection state: checking
+[2025-12-25 01:21:56][INFO] WebRTC connection state: connecting
+[2025-12-25 01:21:56][INFO] ICE connection state: completed
+[2025-12-25 01:21:56][INFO] WebRTC connection state: connected
+[2025-12-25 01:21:56][INFO] WebRTC connection 255083917807184 established
+[2025-12-25 01:21:56][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:21:56][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:21:56][INFO] Starting send queue processor for connection 255083917807184
+[2025-12-25 01:22:01][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:22:01][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:22:01][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:22:01][INFO] Client is idle, resetting services
+[2025-12-25 01:23:28][INFO] Client is speaking
+[2025-12-25 01:23:37][INFO] 🔍 规则意图检测命中: [{'function_call': {'name': 'make_smile'}}]
+[2025-12-25 01:23:37][INFO] [准备调用] {'function_call': {'name': 'make_smile'}}
+[2025-12-25 01:23:37][INFO] 📏 Prompt length (chars): 430
+[2025-12-25 01:23:37][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 01:23:37][INFO] [回复]: 
+[2025-12-25 01:23:37][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 01:23:38][INFO] Server is thinking
+[2025-12-25 01:24:00][INFO] [LocalLLM] prefill=237 tok in 21.69s, decode=12 tok in 1.18s
+[2025-12-25 01:24:03][INFO] Client is speaking
+[2025-12-25 01:24:14][WARNING] vad result: no_speech
+[2025-12-25 01:24:14][INFO] Client is idle, resetting services
+[2025-12-25 01:24:58][INFO] 程序已被用户中断
+[2025-12-25 01:24:58][INFO] 事件循环已关闭
+[2025-12-25 01:28:10][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:29:33][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:30:39][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:30:39][ERROR] Failed to import tools.deps_check: No module named 'tools.deps_check'. sys.path=['/root/kunpengChat', '/root/kunpengChat/Server', '/usr/local/Ascend/ascend-toolkit/latest/python/site-packages', '/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe', '/root/kunpengChat/Server', '/usr/lib64/python39.zip', '/usr/lib64/python3.9', '/usr/lib64/python3.9/lib-dynload', '/root/.local/lib/python3.9/site-packages', '/usr/local/lib64/python3.9/site-packages']
+[2025-12-25 01:33:32][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:33:32][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 01:33:32][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 01:33:32][WARNING] tools.deps_check 无法导入，跳过本地后端自检: No module named 'tools.deps_check'
+[2025-12-25 01:33:32][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 01:33:32][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 01:33:41][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 01:33:41][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 01:33:43][INFO] ✅ ACL initialized
+[2025-12-25 01:33:47][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 01:33:53][INFO] ✅ Tokenizer loaded
+[2025-12-25 01:33:53][INFO] LLM worker: engine initialized
+[2025-12-25 01:33:53][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 01:33:53][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:33:53][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:33:53][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:33:53][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:34:02][INFO] New WebRTC connection: 255083387626736
+[2025-12-25 01:34:07][INFO] ICE connection state: checking
+[2025-12-25 01:34:07][INFO] WebRTC connection state: connecting
+[2025-12-25 01:34:08][INFO] ICE connection state: completed
+[2025-12-25 01:34:08][INFO] WebRTC connection state: connected
+[2025-12-25 01:34:08][INFO] WebRTC connection 255083387626736 established
+[2025-12-25 01:34:08][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:34:08][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:34:08][INFO] Starting send queue processor for connection 255083387626736
+[2025-12-25 01:34:12][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:34:12][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:34:12][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:34:13][INFO] Client is idle, resetting services
+[2025-12-25 01:34:40][INFO] Client is speaking
+[2025-12-25 01:34:49][INFO] 🔍 规则意图检测命中: [{'function_call': {'name': 'make_smile'}}]
+[2025-12-25 01:34:49][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 01:34:49][INFO] [准备调用] {'function_call': {'name': 'make_smile'}}
+[2025-12-25 01:34:49][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 01:34:49][INFO] 📏 Prompt length (chars): 430
+[2025-12-25 01:34:49][INFO] [回复]: 
+[2025-12-25 01:34:49][INFO] Server is thinking
+[2025-12-25 01:35:12][INFO] [LocalLLM] prefill=237 tok in 21.89s, decode=17 tok in 1.77s
+[2025-12-25 01:35:14][INFO] Client is speaking
+[2025-12-25 01:35:25][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏开灯',), {}
+[2025-12-25 01:35:25][INFO] 🔍 规则意图检测命中: [{'function_call': {'name': 'light_control', 'arguments': {'state': 'on'}}}]
+[2025-12-25 01:35:25][INFO] asr result: 鲲鹏开灯
+[2025-12-25 01:35:25][INFO] [准备调用] {'function_call': {'name': 'light_control', 'arguments': {'state': 'on'}}}
+[2025-12-25 01:35:25][INFO] 📏 Prompt length (chars): 460
+[2025-12-25 01:35:25][INFO] [回复]: 
+[2025-12-25 01:35:29][INFO] Server is thinking
+[2025-12-25 01:35:49][INFO] [LocalLLM] prefill=246 tok in 22.53s, decode=13 tok in 1.24s
+[2025-12-25 01:35:51][INFO] Client is speaking
+[2025-12-25 01:35:59][INFO] 任务提交成功: chat_start_task, 参数: ('',), {}
+[2025-12-25 01:35:59][INFO] 🔍 使用 LLM worker 进行意图识别（先尝试简短提示词）
+[2025-12-25 01:35:59][INFO] asr result: 
+[2025-12-25 01:36:03][INFO] Server is thinking
+[2025-12-25 01:36:05][INFO] ⚠️ 简短意图识别超时，改用完整版提示并延长超时
+[2025-12-25 01:36:09][INFO] [LocalLLM] prefill=90 tok in 8.25s, decode=18 tok in 1.70s
+[2025-12-25 01:36:17][ERROR] LLM worker 意图识别失败（完整版）: LLM worker generate_text timeout after 12s
+[2025-12-25 01:36:17][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 01:36:17][INFO] 📏 Prompt length (chars): 296
+[2025-12-25 01:36:17][INFO] [回复]: 
+[2025-12-25 01:36:20][INFO] [LocalLLM] prefill=109 tok in 9.95s, decode=16 tok in 1.58s
+[2025-12-25 01:36:28][INFO] 程序已被用户中断
+[2025-12-25 01:36:28][INFO] 事件循环已关闭
+[2025-12-25 01:54:38][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 01:54:39][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 01:54:39][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 01:54:39][WARNING] tools.deps_check 无法导入，跳过本地后端自检: No module named 'tools.deps_check'
+[2025-12-25 01:54:39][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 01:54:39][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 01:54:47][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 01:54:47][INFO] ℹ️  当前使用云端 LLM，无需启动本地 LLM worker。
+[2025-12-25 01:54:51][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 01:54:51][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 01:54:51][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 01:54:51][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 01:55:23][INFO] New WebRTC connection: 255084286505648
+[2025-12-25 01:55:28][INFO] ICE connection state: checking
+[2025-12-25 01:55:28][INFO] WebRTC connection state: connecting
+[2025-12-25 01:55:28][INFO] ICE connection state: completed
+[2025-12-25 01:55:28][INFO] WebRTC connection state: connected
+[2025-12-25 01:55:28][INFO] WebRTC connection 255084286505648 established
+[2025-12-25 01:55:28][INFO] DataChannel event: audio (id=3)
+[2025-12-25 01:55:28][INFO] DataChannel event: text (id=1)
+[2025-12-25 01:55:28][INFO] Starting send queue processor for connection 255084286505648
+[2025-12-25 01:55:33][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 01:55:33][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 01:55:33][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 01:55:33][INFO] Client is idle, resetting services
+[2025-12-25 01:55:57][INFO] Client is speaking
+[2025-12-25 01:56:08][ERROR] 意图识别返回了未知类型: <class 'generator'>
+[2025-12-25 01:56:08][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-25 01:56:08][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 01:56:08][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-25 01:56:08][INFO] 📏 Prompt length (chars): 309
+[2025-12-25 01:56:08][INFO] [回复]: 
+[2025-12-25 01:56:08][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-25 01:56:08][INFO] Server is thinking
+[2025-12-25 01:56:12][INFO] Client is speaking
+[2025-12-25 01:56:32][WARNING] vad result: no_speech
+[2025-12-25 01:56:32][INFO] Client is idle, resetting services
+[2025-12-25 01:57:09][INFO] Client is speaking
+[2025-12-25 01:57:18][INFO] 任务提交成功: chat_start_task, 参数: ('鲲鹏做一个笑脸',), {}
+[2025-12-25 01:57:18][INFO] 🔍 规则意图检测命中: [{'function_call': {'name': 'make_smile'}}]
+[2025-12-25 01:57:18][INFO] asr result: 鲲鹏做一个笑脸
+[2025-12-25 01:57:18][INFO] [准备调用] {'function_call': {'name': 'make_smile'}}
+[2025-12-25 01:57:18][INFO] 📏 Prompt length (chars): 430
+[2025-12-25 01:57:18][INFO] [回复]: 
+[2025-12-25 01:57:18][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-25 01:57:18][INFO] Server is thinking
+[2025-12-25 01:57:22][INFO] Client is speaking
+[2025-12-25 01:57:42][WARNING] vad result: no_speech
+[2025-12-25 01:57:42][INFO] Client is idle, resetting services
+[2025-12-25 02:17:23][INFO] 程序已被用户中断
+[2025-12-25 02:17:23][INFO] 事件循环已关闭
+[2025-12-25 02:27:10][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 02:27:10][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 02:27:10][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 02:27:10][WARNING] tools.deps_check 无法导入，跳过本地后端自检: No module named 'tools.deps_check'
+[2025-12-25 02:27:10][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 02:27:10][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 02:27:19][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 02:27:19][INFO] ℹ️  当前使用云端 LLM，无需启动本地 LLM worker。
+[2025-12-25 02:27:23][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 02:27:23][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 02:27:24][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 02:27:24][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 02:57:31][INFO] New WebRTC connection: 255084697663856
+[2025-12-25 02:57:36][INFO] ICE connection state: checking
+[2025-12-25 02:57:36][INFO] WebRTC connection state: connecting
+[2025-12-25 02:57:36][INFO] ICE connection state: completed
+[2025-12-25 02:57:36][INFO] WebRTC connection state: connected
+[2025-12-25 02:57:36][INFO] WebRTC connection 255084697663856 established
+[2025-12-25 02:57:36][INFO] DataChannel event: audio (id=3)
+[2025-12-25 02:57:36][INFO] DataChannel event: text (id=1)
+[2025-12-25 02:57:36][INFO] Starting send queue processor for connection 255084697663856
+[2025-12-25 02:57:41][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 02:57:41][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 02:57:41][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 02:57:41][INFO] Client is idle, resetting services
+[2025-12-25 02:58:32][ERROR] 意图识别返回了未知类型: <class 'generator'>
+[2025-12-25 02:58:32][INFO] 任务提交成功: chat_start_task, 参数: ('你叫什么名字你可以做哪些事',), {}
+[2025-12-25 02:58:32][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 02:58:32][INFO] asr result: 你叫什么名字你可以做哪些事
+[2025-12-25 02:58:32][INFO] 📏 Prompt length (chars): 309
+[2025-12-25 02:58:32][INFO] [回复]: 
+[2025-12-25 02:58:32][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-25 02:58:32][INFO] Server is thinking
+[2025-12-25 02:58:59][INFO] 任务提交成功: chat_start_task, 参数: ('嗨▁鲲鹏',), {}
+[2025-12-25 02:58:59][ERROR] 意图识别返回了未知类型: <class 'generator'>
+[2025-12-25 02:58:59][INFO] asr result: 嗨▁鲲鹏
+[2025-12-25 02:58:59][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 02:58:59][INFO] 📏 Prompt length (chars): 300
+[2025-12-25 02:58:59][INFO] [回复]: 
+[2025-12-25 02:58:59][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-25 02:58:59][INFO] Server is thinking
+[2025-12-25 02:59:09][INFO] 任务提交成功: chat_start_task, 参数: ('天气怎么样',), {}
+[2025-12-25 02:59:09][INFO] asr result: 天气怎么样
+[2025-12-25 02:59:09][ERROR] 意图识别返回了未知类型: <class 'generator'>
+[2025-12-25 02:59:09][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 02:59:09][INFO] 📏 Prompt length (chars): 301
+[2025-12-25 02:59:09][INFO] [回复]: 
+[2025-12-25 02:59:09][INFO] Calling LLM Stream with Key: sk-99c******b834
+[2025-12-25 02:59:09][INFO] Server is thinking
+[2025-12-25 02:59:25][WARNING] vad result: no_speech
+[2025-12-25 02:59:26][INFO] Client is idle, resetting services
+[2025-12-25 02:59:43][WARNING] vad result: no_speech
+[2025-12-25 02:59:43][INFO] Client is idle, resetting services
+[2025-12-25 02:59:51][WARNING] vad result: no_speech
+[2025-12-25 02:59:51][INFO] Client is idle, resetting services
+[2025-12-25 03:00:03][INFO] Send queue processor stopped for connection 255084697663856
+[2025-12-25 03:00:03][INFO] Shutting down WebRTC server...
+[2025-12-25 03:00:03][INFO] DataChannel audio closed
+[2025-12-25 03:00:03][INFO] DataChannel text closed
+[2025-12-25 03:00:03][INFO] ICE connection state: closed
+[2025-12-25 03:00:03][INFO] WebRTC connection state: closed
+[2025-12-25 03:00:03][INFO] WebRTC connection 255084697663856 closed
+[2025-12-25 03:00:03][INFO] 程序已被用户中断
+[2025-12-25 03:00:03][INFO] 事件循环已关闭
+[2025-12-25 03:00:36][INFO] ASR Service using NPU/ONNX backend: cpu-onnx
+[2025-12-25 03:00:36][INFO] 🚀 WebRTC模式: 使用UDP DataChannel实现低延迟音频传输
+[2025-12-25 03:00:36][INFO] ⚡ 特性: 零重传、允许丢包、消除队头阻塞
+[2025-12-25 03:00:36][WARNING] tools.deps_check 无法导入，跳过本地后端自检: No module named 'tools.deps_check'
+[2025-12-25 03:00:37][INFO] Initializing NPU ASR Model with path: /root/kunpengChat/Server/models/sensevoice_onnx_quant/model_quant.onnx
+[2025-12-25 03:00:37][INFO] Loaded vocab with 25055 tokens
+[2025-12-25 03:00:45][INFO] ASR Model loaded with ONNX Runtime (CPU) | intra=0 inter=0 exec=ExecutionMode.ORT_SEQUENTIAL
+[2025-12-25 03:00:45][INFO] LLM worker: initializing engine in worker thread
+[2025-12-25 03:00:47][INFO] ✅ ACL initialized
+[2025-12-25 03:00:51][INFO] ✅ OM model loaded + device KV cache allocated
+[2025-12-25 03:00:57][INFO] ✅ Tokenizer loaded
+[2025-12-25 03:00:57][INFO] LLM worker: engine initialized
+[2025-12-25 03:00:57][INFO] ✅ LLM worker 已启动并准备就绪。
+[2025-12-25 03:00:57][INFO] Torch threads set: compute=8, interop=2
+[2025-12-25 03:00:57][INFO] === 启动 WebRTC 服务器模式 (低延迟UDP传输) ===
+[2025-12-25 03:00:57][INFO] WebRTC Signaling Server started on http://0.0.0.0:8000
+[2025-12-25 03:00:57][INFO] Clients should POST SDP offer to /offer endpoint
+[2025-12-25 03:01:01][INFO] New WebRTC connection: 255083455698976
+[2025-12-25 03:01:06][INFO] ICE connection state: checking
+[2025-12-25 03:01:06][INFO] WebRTC connection state: connecting
+[2025-12-25 03:01:07][INFO] ICE connection state: completed
+[2025-12-25 03:01:07][INFO] WebRTC connection state: connected
+[2025-12-25 03:01:07][INFO] WebRTC connection 255083455698976 established
+[2025-12-25 03:01:07][INFO] DataChannel event: audio (id=3)
+[2025-12-25 03:01:07][INFO] DataChannel event: text (id=1)
+[2025-12-25 03:01:07][INFO] Starting send queue processor for connection 255083455698976
+[2025-12-25 03:01:11][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-25 03:01:11][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-25 03:01:11][INFO] 成功注册函数: light_control, 描述: 控制灯光开关（GPIO141）。示例：{state: on} 开灯；{state: off} 关灯, 参数: {'state': '字符串或布尔值，on/off 或 true/false（也可中文：开/关）'}
+[2025-12-25 03:01:12][INFO] Client is idle, resetting services
+[2025-12-25 03:01:53][WARNING] vad result: no_speech
+[2025-12-25 03:01:54][INFO] Client is idle, resetting services
+[2025-12-25 03:02:11][INFO] 🔍 使用 LLM worker 进行意图识别（先尝试简短提示词）
+[2025-12-25 03:02:11][INFO] 任务提交成功: chat_start_task, 参数: ('嗨鲲鹏',), {}
+[2025-12-25 03:02:11][INFO] asr result: 嗨鲲鹏
+[2025-12-25 03:02:11][INFO] Server is thinking
+[2025-12-25 03:02:17][INFO] ⚠️ 简短意图识别超时，改用完整版提示并延长超时
+[2025-12-25 03:02:22][INFO] [LocalLLM] prefill=94 tok in 8.61s, decode=18 tok in 1.75s
+[2025-12-25 03:02:29][ERROR] LLM worker 意图识别失败（完整版）: LLM worker generate_text timeout after 12s
+[2025-12-25 03:02:29][INFO] [准备调用] {'function_call': {'name': 'continue_chat'}}
+[2025-12-25 03:02:29][INFO] 📏 Prompt length (chars): 299
+[2025-12-25 03:02:30][INFO] 🧰 加载 tokenizer 用于 token 裁剪: /root/kunpengChat/Server/models/Qwen/qwen_tokenizer
+[2025-12-25 03:02:31][INFO] 🔢 初始预填充估算 tokens: 201, 限制: 512
+[2025-12-25 03:02:31][INFO] [回复]: 
+[2025-12-25 03:02:34][INFO] [LocalLLM] prefill=112 tok in 11.05s, decode=15 tok in 1.42s
+[2025-12-25 03:02:54][INFO] Shutting down WebRTC server...
+[2025-12-25 03:02:54][INFO] Send queue processor stopped for connection 255083455698976
+[2025-12-25 03:02:54][INFO] DataChannel audio closed
+[2025-12-25 03:02:54][INFO] DataChannel text closed
+[2025-12-25 03:02:54][INFO] ICE connection state: closed
+[2025-12-25 03:02:54][INFO] WebRTC connection state: closed
+[2025-12-25 03:02:54][INFO] WebRTC connection 255083455698976 closed
+[2025-12-25 03:02:54][INFO] 程序已被用户中断
+[2025-12-25 03:02:54][INFO] 事件循环已关闭
+[2025-12-25 03:02:55][INFO] [LocalLLM] prefill=206 tok in 18.99s, decode=15 tok in 1.44s

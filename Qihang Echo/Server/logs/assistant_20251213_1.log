@@ -1,0 +1,12 @@
+[2025-12-13 20:33:37][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-13 20:33:37][INFO] Loading local ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-13 20:33:53][INFO] ASR Model loaded successfully.
+[2025-12-13 20:33:53][INFO] Torch threads set: compute=8, interop=2
+[2025-12-13 20:33:53][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-13 21:09:24][INFO] Client connected
+[2025-12-13 21:09:24][INFO] Authentication successful
+[2025-12-13 21:09:29][INFO] Received hello message with audio params: {'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 40}
+[2025-12-13 21:09:29][INFO] 成功注册函数: robot_move, 描述: 让机器人运动, 参数: {'direction': '字符数据,分别有forward,backward,left和right', 'duration': '浮点数,表示运动持续时间（秒）', 'speed': '整数数据,表示运动速度'}
+[2025-12-13 21:09:29][INFO] Client is idle, resetting services
+[2025-12-13 21:09:51][WARNING] Connection closed: no close frame received or sent
+[2025-12-13 21:09:51][INFO] Client disconnected

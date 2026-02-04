@@ -1,0 +1,22 @@
+[2025-12-12 20:46:36][WARNING] Opus codec not available: pyogg module exists but OpusEncoder not found (likely libopus missing). Audio processing will fail if Opus is required.
+[2025-12-12 20:46:36][INFO] Loading local ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-12 20:46:42][INFO] ASR Model loaded successfully.
+[2025-12-12 20:46:42][INFO] Torch threads set: compute=8, interop=2
+[2025-12-12 20:46:42][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-12 20:47:17][INFO] 服务器已关闭。
+[2025-12-12 20:47:17][INFO] 程序已被用户中断
+[2025-12-12 20:47:17][INFO] 事件循环已关闭
+[2025-12-12 21:17:02][ERROR] Failed to force load Opus: cannot import name 'OpusEncoder' from 'pyogg' (/home/openEuler/.local/lib/python3.9/site-packages/pyogg/__init__.py)
+[2025-12-12 21:19:14][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-12 21:19:14][INFO] Loading local ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-12 21:19:19][INFO] ASR Model loaded successfully.
+[2025-12-12 21:19:19][INFO] Torch threads set: compute=8, interop=2
+[2025-12-12 21:19:19][INFO] WebSocket server started on ws://0.0.0.0:8000
+[2025-12-12 21:19:46][INFO] 服务器已关闭。
+[2025-12-12 21:19:46][INFO] 程序已被用户中断
+[2025-12-12 21:19:46][INFO] 事件循环已关闭
+[2025-12-12 21:22:11][WARNING] PyOgg import failed. Falling back to ctypes implementation.
+[2025-12-12 21:22:11][INFO] Loading local ASR model from: /home/openEuler/KunpengChat/Server/models/FunAudioLLM/iic/SenseVoiceSmall
+[2025-12-12 21:22:16][INFO] ASR Model loaded successfully.
+[2025-12-12 21:22:16][INFO] Torch threads set: compute=8, interop=2
+[2025-12-12 21:22:16][INFO] WebSocket server started on ws://0.0.0.0:8000
