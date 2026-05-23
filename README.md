@@ -1,7 +1,5 @@
 <h2 align="center">1. 鲲鹏端云协同中文语音助手引擎</h2>
-<p align="center">
-    <img border="1px" width="100%" src="./assets/architecture/AIChat_Architecture.png">
-</p>
+<img width="2183" height="1053" alt="image" src="https://github.com/user-attachments/assets/c3e585bc-cc80-409c-a1da-bb50b84bd187" />
 请确保[Server](./Server/README.md)运行起来, 再运行[Client](./Client/README.md).
 
 
